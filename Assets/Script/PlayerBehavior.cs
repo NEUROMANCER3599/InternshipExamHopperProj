@@ -20,7 +20,6 @@ public class PlayerBehavior : MonoBehaviour
         gameManager = GameManager.instance;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(JumpInput))
@@ -32,16 +31,31 @@ public class PlayerBehavior : MonoBehaviour
     private Vector3 GetJumpPosition()
     {
         Vector3 JumpPosition = gameManager.SpawnedBlocks[StepNum+1].transform.position + new Vector3(0,JumpPositionOffset,0);
-        Debug.Log("Next Jump Position: " + JumpPosition);
         return JumpPosition;
     }
 
-    void Jump()
+    public void Jump()
     {
         if (StepNum + 1 >= gameManager.SpawnedBlocks.Count) return;
 
-        rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, true);
+        rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, false);
         StepNum++;
        
+    }
+
+   
+    public void OnReset()
+    {
+        StepNum = -1;
+        rb.DOJump(GetJumpPosition(), JumpPower, 1, 0.1f, false);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Finish")
+        {
+            gameManager.OnWin();
+            //OnReset();
+        }
     }
 }
