@@ -147,10 +147,10 @@ TextureImporter:
       name: DEFEND_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 21
-        width: 25
-        height: 38
+        x: 0
+        y: 0
+        width: 96
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: DEFEND_1
       rect:
         serializedVersion: 2
-        x: 126
-        y: 21
-        width: 33
-        height: 37
+        x: 96
+        y: 0
+        width: 96
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: DEFEND_2
       rect:
         serializedVersion: 2
-        x: 220
-        y: 21
-        width: 35
-        height: 36
+        x: 192
+        y: 0
+        width: 96
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: DEFEND_3
       rect:
         serializedVersion: 2
-        x: 315
-        y: 21
-        width: 37
-        height: 36
+        x: 288
+        y: 0
+        width: 96
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: DEFEND_4
       rect:
         serializedVersion: 2
-        x: 413
-        y: 21
-        width: 35
-        height: 36
+        x: 384
+        y: 0
+        width: 96
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: DEFEND_5
       rect:
         serializedVersion: 2
-        x: 443
-        y: 40
-        width: 6
-        height: 6
+        x: 480
+        y: 0
+        width: 96
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,33 +275,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: DEFEND_6
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 21
-        width: 30
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25c5544f80cd10990800000000000000
-      internalID: -7421408779913831342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1b956a6573b038f44b40c54ea1890779
     internalID: 0
     vertices: []
     indices: 
@@ -317,7 +295,6 @@ TextureImporter:
       DEFEND_3: 3729738533474728182
       DEFEND_4: 7638037057871731419
       DEFEND_5: 3724039543734530902
-      DEFEND_6: -7421408779913831342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

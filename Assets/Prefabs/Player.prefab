@@ -120,6 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e65737e08036e1c44be001ff865cfb91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LifePoint: 3
+  _animator: {fileID: 0}
   JumpInput: 32
   JumpPositionOffset: 0.375
   JumpPower: 3.5
@@ -140,6 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5818014917288748467}
   - component: {fileID: 1024879008247722143}
+  - component: {fileID: 2853999748503821343}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -217,3 +220,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2853999748503821343
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7913737892378366007}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 69a196e87ea553a418ec5fcb1ec141c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -10,14 +10,14 @@ public class GameManager : MonoBehaviour
     public static GameManager instance { get; private set; }
 
     [Header("Prefab Components")]
-    [SerializeField] private List<GameObject> BlockList;
-    [SerializeField] private List<GameObject> EntityList;
-    [SerializeField] private GameObject PlayerPrefab;
+    [SerializeField] private List<Block> BlockList;
+    [SerializeField] private List<Entity> EntityList;
+    [SerializeField] private PlayerBehavior PlayerPrefab;
 
     [Header("Block Spawn Parameters")]
     public Vector3 StartingBlockPosition = new Vector3(0,-1.5f,0);
-    [SerializeField] private GameObject StartingBlockPrefab;
-    [SerializeField] private GameObject GoalBlockPrefab;
+    [SerializeField] private Block StartingBlockPrefab;
+    [SerializeField] private Block GoalBlockPrefab;
     [SerializeField] private int MinBlockCount = 10;
     [SerializeField] private int MaxBlockCount = 30;
     [SerializeField] private float MinBlockSpawnHeight = -2.5f;
@@ -31,11 +31,14 @@ public class GameManager : MonoBehaviour
 
 
     [Header("System")]
-    public List<GameObject> SpawnedBlocks;
+    public List<Block> SpawnedBlocks;
     [SerializeField] private PlayerBehavior _player;
     [SerializeField] private CinemachineCamera _VirtualCam;
     public List<GameObject> SpawnedObjects;
     public List<Transform> PossibleEntitySpawnPositions;
+    public List<Entity> SpawnedEntities;
+    [SerializeField] private KeyCode RestartKey = KeyCode.R;
+    bool IsLose;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -62,13 +65,11 @@ public class GameManager : MonoBehaviour
     void InitializeLevel() //Do not change this sequence
     {
        
-
         BuildingBlocks(); //This must be first
 
         SpawningEntity();
 
         SpawningPlayer();
-
 
     }
 
@@ -76,6 +77,22 @@ public class GameManager : MonoBehaviour
     
     void Update()
     {
+        
+        if (Input.GetKeyDown(RestartKey))
+        {
+            if (!IsLose) return;
+            OnRestart();
+        }
+
+        if(_player != null) _player.UpdateData();
+
+        if (SpawnedEntities == null) return;
+
+            foreach(var Entity in SpawnedEntities)
+            {
+                Entity.UpdateData();
+            }
+
         
     }
 
@@ -93,7 +110,7 @@ public class GameManager : MonoBehaviour
 
         for(int i = 1; i < totalEntityCount; i++)
         {
-            SpawnedObjects.Add(SpawnObject(EntityList[Random.Range(0, EntityList.Count)], PickingUniqueItem<Transform>(PossibleEntitySpawnPositions,1, PossibleEntitySpawnPositions.Count - 1).position + new Vector3(0,EntitySpawnHeightOffset,0)));
+            SpawnedEntities.Add(SpawnObject<Entity>(EntityList[Random.Range(0, EntityList.Count)], PickingUniqueItem<Transform>(PossibleEntitySpawnPositions, 1, PossibleEntitySpawnPositions.Count - 1).position + new Vector3(0, EntitySpawnHeightOffset, 0)));
         }
     }
 
@@ -103,26 +120,40 @@ public class GameManager : MonoBehaviour
 
         totalBlockCount = Random.Range(MinBlockCount, MaxBlockCount);
 
-        SpawnedBlocks.Add(SpawnObject(StartingBlockPrefab, StartingBlockPosition));
+        SpawnedBlocks.Add(SpawnObject<Block>(StartingBlockPrefab, StartingBlockPosition));
+        
 
         for (int i = 1; i < totalBlockCount; i++)
         {
-            SpawnedBlocks.Add(SpawnObject(BlockList[Random.Range(0, BlockList.Count)], new Vector3(SpawnedBlocks[i - 1].transform.position.x + BlockSpawnDistance, Random.Range(MinBlockSpawnHeight, MaxBlockSpawnHeight), 0)));
+            SpawnedBlocks.Add(SpawnObject<Block>(BlockList[Random.Range(0, BlockList.Count)], new Vector3(SpawnedBlocks[i - 1].transform.position.x + BlockSpawnDistance, Random.Range(MinBlockSpawnHeight, MaxBlockSpawnHeight), 0)));
+            
         }
 
-        SpawnedBlocks.Add(SpawnObject(GoalBlockPrefab, new Vector3(SpawnedBlocks[totalBlockCount - 1].transform.position.x + BlockSpawnDistance, Random.Range(MinBlockSpawnHeight, MaxBlockSpawnHeight))));
-
+        SpawnedBlocks.Add(SpawnObject<Block>(GoalBlockPrefab, new Vector3(SpawnedBlocks[totalBlockCount - 1].transform.position.x + BlockSpawnDistance, Random.Range(MinBlockSpawnHeight, MaxBlockSpawnHeight))));
+       
     }
 
-    private GameObject SpawnObject(GameObject SpawnPrefab, Vector3 SpawnLocation)
+    private T SpawnObject<T>(T SpawnPrefab, Vector3 SpawnLocation) where T : MonoBehaviour
     {
-        if (SpawnPrefab == null) return null;
+        if (SpawnPrefab == null) return default;
         var SpawnedObj = Instantiate(SpawnPrefab, SpawnLocation, Quaternion.identity);
-        SpawnedObjects.Add(SpawnedObj);
+        SpawnedObjects.Add(SpawnedObj.gameObject);
         return SpawnedObj;
     }
 
     public void OnWin()
+    {
+        
+        ClearSpawnedObj();
+        InitializeLevel();
+    }
+
+    public void OnLose()
+    {
+        IsLose = true;
+    }
+
+    public void OnRestart()
     {
         ClearSpawnedObj();
         InitializeLevel();
@@ -131,8 +162,7 @@ public class GameManager : MonoBehaviour
     private void SpawningPlayer()
     {
         if (PlayerPrefab == null) return;
-        var playerInstance = SpawnObject(PlayerPrefab,Vector3.zero);
-        _player = playerInstance.GetComponent<PlayerBehavior>();
+        _player = SpawnObject<PlayerBehavior>(PlayerPrefab, Vector3.zero);
         _player.InitializeData();
         _VirtualCam.Follow = _player.gameObject.transform;
     }
@@ -144,6 +174,7 @@ public class GameManager : MonoBehaviour
             Destroy(obj);
         }
         SpawnedBlocks.Clear();
+        SpawnedEntities.Clear();
         SpawnedObjects.Clear();
     }
 

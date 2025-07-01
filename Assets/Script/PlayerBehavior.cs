@@ -3,6 +3,12 @@ using DG.Tweening;
 
 public class PlayerBehavior : MonoBehaviour
 {
+    [Header("Gameplay Data")]
+    [SerializeField] private int LifePoint = 3;
+
+    [Header("Animation Components")]
+    [SerializeField] private Animator _animator;
+
     [Header("Parameters")]
     [SerializeField] private KeyCode JumpInput = KeyCode.Space;
     public float JumpPositionOffset = 0.375f;
@@ -14,6 +20,7 @@ public class PlayerBehavior : MonoBehaviour
 
     [Header("System")]
     [SerializeField] private int StepNum = 0;
+    private bool IsActive = true;
     private Rigidbody2D rb;
     private GameManager gameManager;
     private BoxCollider2D col;
@@ -22,14 +29,16 @@ public class PlayerBehavior : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
+        _animator = GetComponentInChildren<Animator>();
         gameManager = GameManager.instance;
     }
 
-    void Update()
+    public void UpdateData()
     {
         if (Input.GetKeyDown(JumpInput))
         {
             if (!GroundCheck()) return;
+            if (!IsActive) return;
             Jump();
         }
     }
@@ -45,6 +54,7 @@ public class PlayerBehavior : MonoBehaviour
         if (StepNum + 1 >= gameManager.SpawnedBlocks.Count) return;
 
         rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, false);
+        _animator.SetTrigger("Jump");
         StepNum++;
        
     }
@@ -70,8 +80,28 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
+    public void OnDamaged()
+    {
+        if(!IsActive) return;
+        LifePoint--;
+        _animator.SetTrigger("OnHurt");
+        if (LifePoint <= 0) LoseEvent();
+    }
+
+    public void LoseEvent()
+    {
+        
+        IsActive = false;
+        gameManager.OnLose();
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.DrawCube(transform.position-transform.up * GroundCheckDistance, GroundCheckBox);
+    }
+
+    private void OnDestroy()
+    {
+        DOTween.KillAll(true);
     }
 }

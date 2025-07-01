@@ -418,25 +418,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BlockList:
-  - {fileID: 3848544914625088520, guid: bda8663d68723e04f9fa299c16deadde, type: 3}
+  - {fileID: 2245297594938336629, guid: bda8663d68723e04f9fa299c16deadde, type: 3}
   EntityList:
-  - {fileID: 2773899641667067405, guid: 941911e6240954a4785b2022b1a32888, type: 3}
-  PlayerPrefab: {fileID: 127635754939293493, guid: 094a93c6823fc9e419dee2a95eaac123, type: 3}
+  - {fileID: 6182986784111190904, guid: 941911e6240954a4785b2022b1a32888, type: 3}
+  PlayerPrefab: {fileID: 2465796553945486903, guid: 094a93c6823fc9e419dee2a95eaac123, type: 3}
   StartingBlockPosition: {x: 0, y: -1.5, z: 0}
-  StartingBlockPrefab: {fileID: 3848544914625088520, guid: 6ea922b65053a89498cd87a133d2ac5c, type: 3}
-  GoalBlockPrefab: {fileID: 3848544914625088520, guid: b208519e37dd1a3438bb86c1b992ecac, type: 3}
+  StartingBlockPrefab: {fileID: -2421101259523926199, guid: 6ea922b65053a89498cd87a133d2ac5c, type: 3}
+  GoalBlockPrefab: {fileID: -2628699131300429074, guid: b208519e37dd1a3438bb86c1b992ecac, type: 3}
   MinBlockCount: 10
   MaxBlockCount: 30
   MinBlockSpawnHeight: -1.5
   MaxBlockSpawnHeight: -1
   BlockSpawnDistance: 1
   EntitySpawnHeightOffset: 1
-  EntityPerBlockPercentage: 0.65
+  EntityPerBlockPercentage: 0.5
   SpawnedBlocks: []
   _player: {fileID: 0}
   _VirtualCam: {fileID: 0}
   SpawnedObjects: []
   PossibleEntitySpawnPositions: []
+  RestartKey: 114
 --- !u!1 &2103541514
 GameObject:
   m_ObjectHideFlags: 0
