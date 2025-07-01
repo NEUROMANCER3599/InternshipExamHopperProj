@@ -419,6 +419,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BlockList:
   - {fileID: 3848544914625088520, guid: bda8663d68723e04f9fa299c16deadde, type: 3}
+  EntityList:
+  - {fileID: 2773899641667067405, guid: 941911e6240954a4785b2022b1a32888, type: 3}
   PlayerPrefab: {fileID: 127635754939293493, guid: 094a93c6823fc9e419dee2a95eaac123, type: 3}
   StartingBlockPosition: {x: 0, y: -1.5, z: 0}
   StartingBlockPrefab: {fileID: 3848544914625088520, guid: 6ea922b65053a89498cd87a133d2ac5c, type: 3}
@@ -428,8 +430,13 @@ MonoBehaviour:
   MinBlockSpawnHeight: -1.5
   MaxBlockSpawnHeight: -1
   BlockSpawnDistance: 1
+  EntitySpawnHeightOffset: 1
+  EntityPerBlockPercentage: 0.65
   SpawnedBlocks: []
+  _player: {fileID: 0}
+  _VirtualCam: {fileID: 0}
   SpawnedObjects: []
+  PossibleEntitySpawnPositions: []
 --- !u!1 &2103541514
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,15 +8,20 @@ public class PlayerBehavior : MonoBehaviour
     public float JumpPositionOffset = 0.375f;
     public float JumpPower = 5f;
     public float JumpSpeed = 0.5f;
+    public Vector2 GroundCheckBox;
+    public float GroundCheckDistance;
+    public LayerMask GroundLayer;
 
     [Header("System")]
     [SerializeField] private int StepNum = 0;
     private Rigidbody2D rb;
     private GameManager gameManager;
+    private BoxCollider2D col;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void InitializeData()
     {
         rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<BoxCollider2D>();
         gameManager = GameManager.instance;
     }
 
@@ -24,6 +29,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         if (Input.GetKeyDown(JumpInput))
         {
+            if (!GroundCheck()) return;
             Jump();
         }
     }
@@ -43,19 +49,29 @@ public class PlayerBehavior : MonoBehaviour
        
     }
 
-   
-    public void OnReset()
+    public bool GroundCheck()
     {
-        StepNum = -1;
-        rb.DOJump(GetJumpPosition(), JumpPower, 1, 0.1f, false);
+        if (Physics2D.BoxCast(transform.position, GroundCheckBox, 0, -transform.up,GroundCheckDistance,GroundLayer))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Finish")
         {
             gameManager.OnWin();
-            //OnReset();
         }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawCube(transform.position-transform.up * GroundCheckDistance, GroundCheckBox);
     }
 }

@@ -122,8 +122,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JumpInput: 32
   JumpPositionOffset: 0.375
-  JumpPower: 2
+  JumpPower: 3.5
   JumpSpeed: 0.5
+  GroundCheckBox: {x: 0.5, y: 0.5}
+  GroundCheckDistance: 0.5
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
   StepNum: 0
 --- !u!1 &7913737892378366007
 GameObject:
