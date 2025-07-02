@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,10 +150,10 @@ TextureImporter:
       name: BatAttack_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 12
-        width: 25
-        height: 18
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: BatAttack_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 10
-        width: 24
-        height: 19
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: BatAttack_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 9
-        width: 30
-        height: 21
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: BatAttack_3
       rect:
         serializedVersion: 2
-        x: 98
-        y: 8
-        width: 23
-        height: 19
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: BatAttack_4
       rect:
         serializedVersion: 2
-        x: 127
-        y: 9
-        width: 6
-        height: 13
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: BatAttack_5
       rect:
         serializedVersion: 2
-        x: 133
-        y: 8
-        width: 19
-        height: 20
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: BatAttack_6
       rect:
         serializedVersion: 2
-        x: 159
-        y: 9
-        width: 29
-        height: 18
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,33 +300,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: BatAttack_7
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 9
-        width: 29
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbb16b2319b2d5eb0800000000000000
-      internalID: -4729576131048105028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a6334a54dd6e5f74ab7a43d60bd15164
     internalID: 0
     vertices: []
     indices: 
@@ -335,7 +313,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BatAttack_0: 5862133903455910337
+      BatAttack_1: 3230903509795381783
+      BatAttack_2: 2993199042309818011
+      BatAttack_3: 182826488792749200
+      BatAttack_4: -4977399858252897655
+      BatAttack_5: -6203808533074386767
+      BatAttack_6: 9024967038764584724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

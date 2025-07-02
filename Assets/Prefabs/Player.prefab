@@ -128,7 +128,7 @@ MonoBehaviour:
   JumpInput: 32
   AttackInput: 101
   AttackPoint: {fileID: 1947769524964249036}
-  AttackHitBoxSize: {x: 1, y: 1.5}
+  AttackHitBoxRadius: 0.75
   JumpPositionOffset: 0.375
   JumpPower: 3.5
   JumpSpeed: 0.5

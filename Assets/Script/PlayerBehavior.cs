@@ -15,7 +15,7 @@ public class PlayerBehavior : Entity
     [SerializeField] private KeyCode JumpInput = KeyCode.Space;
     [SerializeField] private KeyCode AttackInput = KeyCode.E;
     public Transform AttackPoint;
-    public Vector2 AttackHitBoxSize = new Vector2(0.5f,1f);
+    public float AttackHitBoxRadius = 1f;
     public float JumpPositionOffset = 0.375f;
     public float JumpPower = 5f;
     public float JumpSpeed = 0.5f;
@@ -122,12 +122,12 @@ public class PlayerBehavior : Entity
 
     public void AttackHit()
     {
-        RaycastHit2D[] enemy = Physics2D.BoxCastAll(AttackPoint.position, AttackHitBoxSize,0,transform.right,Vector2.Distance(transform.position,AttackPoint.position),EnemyLayer);
+        Collider2D[] enemy = Physics2D.OverlapCircleAll(AttackPoint.position,AttackHitBoxRadius,EnemyLayer);
 
-        foreach (RaycastHit2D collidedEnemy in enemy)
+        foreach (Collider2D collidedEnemy in enemy)
         {
-            if (!collidedEnemy.collider.gameObject.GetComponent<EnemyBehavior>()) return;
-            EnemyBehavior EnemyInstance = collidedEnemy.collider.gameObject.GetComponent<EnemyBehavior>();
+            if (!collidedEnemy.gameObject.GetComponent<EnemyBehavior>()) return;
+            EnemyBehavior EnemyInstance = collidedEnemy.gameObject.GetComponent<EnemyBehavior>();
             EnemyInstance.OnDamaged();
         }
     }
@@ -140,7 +140,7 @@ public class PlayerBehavior : Entity
     private void OnDrawGizmos()
     {
         Gizmos.DrawCube(transform.position-transform.up * GroundCheckDistance, GroundCheckBox);
-        Gizmos.DrawCube(AttackPoint.position, AttackHitBoxSize);
+        Gizmos.DrawSphere(AttackPoint.position, AttackHitBoxRadius);
     }
 
     private void OnDestroy()

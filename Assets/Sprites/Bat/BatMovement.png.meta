@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,20 +144,20 @@ TextureImporter:
       name: BatMovement_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 11
-        width: 24
-        height: 18
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a7d088f92ee61220800000000000000
-      internalID: 2456412510807447457
+      spriteID: 22d87ad25dadc8c47b566d02256c583b
+      internalID: -437741098
       vertices: []
       indices: 
       edges: []
@@ -166,20 +166,20 @@ TextureImporter:
       name: BatMovement_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 10
-        width: 30
-        height: 20
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b7f5b31a94f2f8360800000000000000
-      internalID: 7174004724708630395
+      spriteID: 4325562a596b3d747b154f8cae4daacd
+      internalID: 1561469992
       vertices: []
       indices: 
       edges: []
@@ -188,20 +188,20 @@ TextureImporter:
       name: BatMovement_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 8
-        width: 20
-        height: 19
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 053a2701bd2ac7b60800000000000000
-      internalID: 7745244520927896400
+      spriteID: 776b5cfac76c6da4db51550b589f4347
+      internalID: 1682257339
       vertices: []
       indices: 
       edges: []
@@ -210,20 +210,20 @@ TextureImporter:
       name: BatMovement_3
       rect:
         serializedVersion: 2
-        x: 103
-        y: 8
-        width: 17
-        height: 20
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3fba13a0da77512b0800000000000000
-      internalID: -5614449775363380237
+      spriteID: 9e007dba787977b44bb04807c4051a22
+      internalID: -1645830454
       vertices: []
       indices: 
       edges: []
@@ -232,20 +232,20 @@ TextureImporter:
       name: BatMovement_4
       rect:
         serializedVersion: 2
-        x: 131
-        y: 11
-        width: 25
-        height: 16
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f859a643fa6c8f730800000000000000
-      internalID: 4033191922111255951
+      spriteID: e652c241c37b89b49a2d7cb4cf964e1f
+      internalID: 1129953267
       vertices: []
       indices: 
       edges: []
@@ -254,20 +254,20 @@ TextureImporter:
       name: BatMovement_5
       rect:
         serializedVersion: 2
-        x: 161
-        y: 13
-        width: 29
-        height: 15
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48079dc9a61c946b0800000000000000
-      internalID: -5311501621864599420
+      spriteID: 6fd05e36c1ed94441907986eda6ae660
+      internalID: 339795522
       vertices: []
       indices: 
       edges: []
@@ -276,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ac788a4012842d441a3db77321ce256a
     internalID: 0
     vertices: []
     indices: 
@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BatMovement_0: -437741098
+      BatMovement_1: 1561469992
+      BatMovement_2: 1682257339
+      BatMovement_3: -1645830454
+      BatMovement_4: 1129953267
+      BatMovement_5: 339795522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; private set; }
 
+    [Header("Gameplay Manager")]
+    [SerializeField] private int Score;
+
     [Header("Prefab Components")]
     [SerializeField] private List<Entity> BlockList;
     [SerializeField] private List<Entity> EntityList;
@@ -141,7 +144,7 @@ public class GameManager : MonoBehaviour
        
     }
 
-    private T SpawnObject<T>(T SpawnPrefab, Vector3 SpawnLocation) where T : MonoBehaviour
+    public T SpawnObject<T>(T SpawnPrefab, Vector3 SpawnLocation) where T : MonoBehaviour
     {
         if (SpawnPrefab == null) return default;
         var SpawnedObj = Instantiate(SpawnPrefab, SpawnLocation, Quaternion.identity);
@@ -198,5 +201,10 @@ public class GameManager : MonoBehaviour
         itemlist.RemoveAt(index);
 
         return Pickeditem;
+    }
+
+    public void Scoring(int score)
+    {
+        Score += score;
     }
 }
