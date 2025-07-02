@@ -420,7 +420,7 @@ MonoBehaviour:
   BlockList:
   - {fileID: 2245297594938336629, guid: bda8663d68723e04f9fa299c16deadde, type: 3}
   EntityList:
-  - {fileID: 6182986784111190904, guid: 941911e6240954a4785b2022b1a32888, type: 3}
+  - {fileID: 6401701953907888561, guid: 941911e6240954a4785b2022b1a32888, type: 3}
   PlayerPrefab: {fileID: 2465796553945486903, guid: 094a93c6823fc9e419dee2a95eaac123, type: 3}
   StartingBlockPosition: {x: 0, y: -1.5, z: 0}
   StartingBlockPrefab: {fileID: -2421101259523926199, guid: 6ea922b65053a89498cd87a133d2ac5c, type: 3}

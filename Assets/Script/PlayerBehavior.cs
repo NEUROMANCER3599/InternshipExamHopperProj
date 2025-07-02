@@ -1,7 +1,8 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class PlayerBehavior : MonoBehaviour
+[RequireComponent(typeof(Entity))]
+public class PlayerBehavior : Entity
 {
     [Header("Gameplay Data")]
     [SerializeField] private int LifePoint = 3;
@@ -11,6 +12,7 @@ public class PlayerBehavior : MonoBehaviour
 
     [Header("Parameters")]
     [SerializeField] private KeyCode JumpInput = KeyCode.Space;
+    [SerializeField] private KeyCode AttackInput = KeyCode.E;
     public float JumpPositionOffset = 0.375f;
     public float JumpPower = 5f;
     public float JumpSpeed = 0.5f;
@@ -25,7 +27,7 @@ public class PlayerBehavior : MonoBehaviour
     private GameManager gameManager;
     private BoxCollider2D col;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void InitializeData()
+    public override void InitializeData()
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
@@ -33,13 +35,20 @@ public class PlayerBehavior : MonoBehaviour
         gameManager = GameManager.instance;
     }
 
-    public void UpdateData()
+    public override void UpdateData()
     {
         if (Input.GetKeyDown(JumpInput))
         {
             if (!GroundCheck()) return;
             if (!IsActive) return;
             Jump();
+        }
+
+        if (Input.GetKeyDown(AttackInput))
+        {
+            if (!GroundCheck()) return;
+            if (!IsActive) return;
+            Attack();
         }
     }
 
@@ -49,7 +58,7 @@ public class PlayerBehavior : MonoBehaviour
         return JumpPosition;
     }
 
-    public void Jump()
+    private void Jump()
     {
         if (StepNum + 1 >= gameManager.SpawnedBlocks.Count) return;
 
@@ -59,7 +68,14 @@ public class PlayerBehavior : MonoBehaviour
        
     }
 
-    public bool GroundCheck()
+    private void Attack()
+    {
+        int RandomAnimIndex = Random.Range(0, 3);
+        _animator.SetInteger("AttackAnimIndex", RandomAnimIndex);
+        _animator.SetTrigger("OnAttack");
+    }
+
+    private bool GroundCheck()
     {
         if (Physics2D.BoxCast(transform.position, GroundCheckBox, 0, -transform.up,GroundCheckDistance,GroundLayer))
         {
@@ -88,10 +104,11 @@ public class PlayerBehavior : MonoBehaviour
         if (LifePoint <= 0) LoseEvent();
     }
 
-    public void LoseEvent()
+    private void LoseEvent()
     {
         
         IsActive = false;
+        _animator.SetTrigger("OnDeath");
         gameManager.OnLose();
     }
 

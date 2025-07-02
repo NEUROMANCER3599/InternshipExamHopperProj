@@ -1,15 +1,16 @@
 using UnityEngine;
 
-public class Block : MonoBehaviour
+[RequireComponent(typeof(Entity))]
+public class Block : Entity
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public override void InitializeData()
     {
-        
+
     }
 
     // Update is called once per frame
-    void Update()
+    public override void UpdateData()
     {
         
     }

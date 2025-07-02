@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Entity))]
 public class EnemyBehavior : Entity
 {
 
@@ -8,7 +9,7 @@ public class EnemyBehavior : Entity
 
     public override void InitializeData()
     {
-
+       
     }
 
     public override void UpdateData()
@@ -20,7 +21,7 @@ public class EnemyBehavior : Entity
     {
         if(collision.gameObject == _player.gameObject)
         {
-            //_player.OnDamaged();
+            _player.OnDamaged();
             OnDeath();
 
         }
