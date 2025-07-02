@@ -3,7 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Entity))]
 public class EnemyBehavior : Entity
 {
-
+    [Header("Parameters")]
+    public int LifePoint = 3;
 
     private PlayerBehavior _player;
 
@@ -23,8 +24,14 @@ public class EnemyBehavior : Entity
         {
             _player.OnDamaged();
             OnDeath();
-
         }
+    }
+
+    public void OnDamaged()
+    {
+        Debug.Log("Enemy Hit!");
+        LifePoint--;
+        if(LifePoint <= 0) OnDeath();
     }
 
     void OnDeath()

@@ -1,5 +1,6 @@
 using UnityEngine;
 using DG.Tweening;
+using Unity.VisualScripting;
 
 [RequireComponent(typeof(Entity))]
 public class PlayerBehavior : Entity
@@ -13,16 +14,20 @@ public class PlayerBehavior : Entity
     [Header("Parameters")]
     [SerializeField] private KeyCode JumpInput = KeyCode.Space;
     [SerializeField] private KeyCode AttackInput = KeyCode.E;
+    public Transform AttackPoint;
+    public Vector2 AttackHitBoxSize = new Vector2(0.5f,1f);
     public float JumpPositionOffset = 0.375f;
     public float JumpPower = 5f;
     public float JumpSpeed = 0.5f;
     public Vector2 GroundCheckBox;
     public float GroundCheckDistance;
     public LayerMask GroundLayer;
+    public LayerMask EnemyLayer;
 
     [Header("System")]
     [SerializeField] private int StepNum = 0;
     private bool IsActive = true;
+    private bool IsAttacking;
     private Rigidbody2D rb;
     private GameManager gameManager;
     private BoxCollider2D col;
@@ -31,7 +36,7 @@ public class PlayerBehavior : Entity
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
-        _animator = GetComponentInChildren<Animator>();
+        _animator = GetComponent<Animator>();
         gameManager = GameManager.instance;
     }
 
@@ -41,6 +46,7 @@ public class PlayerBehavior : Entity
         {
             if (!GroundCheck()) return;
             if (!IsActive) return;
+            if(IsAttacking) return;
             Jump();
         }
 
@@ -48,7 +54,8 @@ public class PlayerBehavior : Entity
         {
             if (!GroundCheck()) return;
             if (!IsActive) return;
-            Attack();
+            if (IsAttacking) return;
+            StartAttack();
         }
     }
 
@@ -68,8 +75,9 @@ public class PlayerBehavior : Entity
        
     }
 
-    private void Attack()
+    private void StartAttack()
     {
+        IsAttacking = true;
         int RandomAnimIndex = Random.Range(0, 3);
         _animator.SetInteger("AttackAnimIndex", RandomAnimIndex);
         _animator.SetTrigger("OnAttack");
@@ -112,9 +120,27 @@ public class PlayerBehavior : Entity
         gameManager.OnLose();
     }
 
+    public void AttackHit()
+    {
+        RaycastHit2D[] enemy = Physics2D.BoxCastAll(AttackPoint.position, AttackHitBoxSize,0,transform.right,Vector2.Distance(transform.position,AttackPoint.position),EnemyLayer);
+
+        foreach (RaycastHit2D collidedEnemy in enemy)
+        {
+            if (!collidedEnemy.collider.gameObject.GetComponent<EnemyBehavior>()) return;
+            EnemyBehavior EnemyInstance = collidedEnemy.collider.gameObject.GetComponent<EnemyBehavior>();
+            EnemyInstance.OnDamaged();
+        }
+    }
+
+    public void endAttack()
+    {
+        IsAttacking = false;
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.DrawCube(transform.position-transform.up * GroundCheckDistance, GroundCheckBox);
+        Gizmos.DrawCube(AttackPoint.position, AttackHitBoxSize);
     }
 
     private void OnDestroy()
