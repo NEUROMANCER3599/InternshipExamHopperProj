@@ -30,6 +30,11 @@ public class Coin : Entity
     void OnCollected()
     {
         gameManager.Scoring(ScorePoint);
+        _animator.SetTrigger("OnCollected");
+    }
+
+    void RemoveObject()
+    {
         Destroy(gameObject);
     }
 

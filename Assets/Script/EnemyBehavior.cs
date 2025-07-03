@@ -51,8 +51,8 @@ public class EnemyBehavior : Entity
     IEnumerator Attacking()
     {
         IsAttacking = true;
+        _animator.SetTrigger(AttackAnimationTrigger);
         yield return new WaitForSeconds(AttackSpeed);
-        _animator.SetTrigger(AttackAnimationTrigger); 
         IsAttacking = false;
     }
 

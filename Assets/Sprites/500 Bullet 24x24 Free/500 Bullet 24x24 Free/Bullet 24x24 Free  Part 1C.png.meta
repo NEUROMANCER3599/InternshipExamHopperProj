@@ -1201,10 +1201,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 337
-        width: 20
-        height: 22
+        x: 24
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1224,9 +1224,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 335
-        width: 73
-        height: 25
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1245,10 +1245,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 335
+        x: 72
+        y: 336
         width: 24
-        height: 25
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1267,10 +1267,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_4
       rect:
         serializedVersion: 2
-        x: 144
-        y: 335
-        width: 25
-        height: 25
+        x: 96
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1289,10 +1289,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_5
       rect:
         serializedVersion: 2
-        x: 169
-        y: 338
-        width: 22
-        height: 20
+        x: 120
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1311,10 +1311,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_6
       rect:
         serializedVersion: 2
-        x: 193
-        y: 338
-        width: 22
-        height: 19
+        x: 144
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1333,10 +1333,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_7
       rect:
         serializedVersion: 2
-        x: 217
-        y: 337
-        width: 22
-        height: 22
+        x: 168
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1355,10 +1355,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_8
       rect:
         serializedVersion: 2
-        x: 242
-        y: 338
-        width: 20
-        height: 20
+        x: 192
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1377,10 +1377,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_9
       rect:
         serializedVersion: 2
-        x: 266
-        y: 337
-        width: 21
-        height: 21
+        x: 216
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1399,10 +1399,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_10
       rect:
         serializedVersion: 2
-        x: 291
-        y: 338
-        width: 18
-        height: 20
+        x: 240
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1421,10 +1421,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_11
       rect:
         serializedVersion: 2
-        x: 313
-        y: 337
-        width: 22
-        height: 21
+        x: 264
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1443,10 +1443,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_12
       rect:
         serializedVersion: 2
-        x: 338
-        y: 338
-        width: 20
-        height: 20
+        x: 288
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1465,10 +1465,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_13
       rect:
         serializedVersion: 2
-        x: 361
-        y: 337
-        width: 22
-        height: 22
+        x: 312
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1487,10 +1487,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_14
       rect:
         serializedVersion: 2
-        x: 386
-        y: 340
-        width: 20
-        height: 20
+        x: 336
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1509,10 +1509,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_15
       rect:
         serializedVersion: 2
-        x: 410
-        y: 338
-        width: 20
-        height: 20
+        x: 360
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1531,10 +1531,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_16
       rect:
         serializedVersion: 2
-        x: 432
-        y: 338
-        width: 20
-        height: 20
+        x: 384
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1553,10 +1553,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_17
       rect:
         serializedVersion: 2
-        x: 458
-        y: 338
-        width: 20
-        height: 20
+        x: 408
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1575,10 +1575,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_18
       rect:
         serializedVersion: 2
-        x: 482
+        x: 432
         y: 336
-        width: 20
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1597,10 +1597,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_19
       rect:
         serializedVersion: 2
-        x: 506
-        y: 338
-        width: 20
-        height: 20
+        x: 456
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1619,10 +1619,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_20
       rect:
         serializedVersion: 2
-        x: 532
-        y: 338
-        width: 20
-        height: 20
+        x: 480
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1641,10 +1641,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_21
       rect:
         serializedVersion: 2
-        x: 554
-        y: 338
-        width: 20
-        height: 20
+        x: 504
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1663,10 +1663,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_22
       rect:
         serializedVersion: 2
-        x: 6
-        y: 319
-        width: 12
-        height: 10
+        x: 528
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1685,10 +1685,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_23
       rect:
         serializedVersion: 2
-        x: 29
-        y: 317
-        width: 14
-        height: 14
+        x: 552
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1707,10 +1707,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_24
       rect:
         serializedVersion: 2
-        x: 51
-        y: 319
-        width: 18
-        height: 10
+        x: 0
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1729,10 +1729,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_25
       rect:
         serializedVersion: 2
-        x: 75
-        y: 315
-        width: 18
-        height: 18
+        x: 24
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1751,9 +1751,9 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_26
       rect:
         serializedVersion: 2
-        x: 104
+        x: 48
         y: 312
-        width: 8
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1773,10 +1773,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_27
       rect:
         serializedVersion: 2
-        x: 123
-        y: 315
-        width: 18
-        height: 18
+        x: 72
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1795,10 +1795,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_28
       rect:
         serializedVersion: 2
-        x: 147
-        y: 319
-        width: 18
-        height: 10
+        x: 96
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1817,10 +1817,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_29
       rect:
         serializedVersion: 2
-        x: 173
-        y: 317
-        width: 14
-        height: 14
+        x: 120
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1839,10 +1839,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_30
       rect:
         serializedVersion: 2
-        x: 197
-        y: 313
-        width: 14
-        height: 22
+        x: 144
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1861,10 +1861,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_31
       rect:
         serializedVersion: 2
-        x: 220
-        y: 316
-        width: 16
-        height: 16
+        x: 168
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1883,10 +1883,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_32
       rect:
         serializedVersion: 2
-        x: 243
-        y: 316
-        width: 19
-        height: 16
+        x: 192
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1905,10 +1905,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_33
       rect:
         serializedVersion: 2
-        x: 269
-        y: 317
-        width: 14
-        height: 14
+        x: 216
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1927,10 +1927,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_34
       rect:
         serializedVersion: 2
-        x: 292
-        y: 316
-        width: 17
-        height: 16
+        x: 240
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1949,10 +1949,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_35
       rect:
         serializedVersion: 2
-        x: 317
-        y: 317
-        width: 14
-        height: 14
+        x: 264
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1971,10 +1971,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_36
       rect:
         serializedVersion: 2
-        x: 339
-        y: 316
-        width: 19
-        height: 16
+        x: 288
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1993,10 +1993,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_37
       rect:
         serializedVersion: 2
-        x: 364
-        y: 316
-        width: 16
-        height: 16
+        x: 312
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2015,10 +2015,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_38
       rect:
         serializedVersion: 2
-        x: 386
-        y: 314
-        width: 20
-        height: 18
+        x: 336
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2037,10 +2037,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_39
       rect:
         serializedVersion: 2
-        x: 411
-        y: 314
-        width: 19
-        height: 19
+        x: 360
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2059,10 +2059,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_40
       rect:
         serializedVersion: 2
-        x: 436
-        y: 314
-        width: 18
-        height: 20
+        x: 384
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2081,10 +2081,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_41
       rect:
         serializedVersion: 2
-        x: 459
-        y: 314
-        width: 19
-        height: 20
+        x: 408
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2103,10 +2103,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_42
       rect:
         serializedVersion: 2
-        x: 482
-        y: 316
-        width: 20
-        height: 18
+        x: 432
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2125,10 +2125,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_43
       rect:
         serializedVersion: 2
-        x: 506
-        y: 315
-        width: 20
-        height: 19
+        x: 456
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2147,10 +2147,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_44
       rect:
         serializedVersion: 2
-        x: 530
-        y: 314
-        width: 18
-        height: 20
+        x: 480
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2169,10 +2169,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_45
       rect:
         serializedVersion: 2
-        x: 554
-        y: 314
-        width: 19
-        height: 20
+        x: 504
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2191,10 +2191,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_46
       rect:
         serializedVersion: 2
-        x: 5
-        y: 290
-        width: 14
-        height: 20
+        x: 528
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2213,10 +2213,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_47
       rect:
         serializedVersion: 2
-        x: 28
-        y: 289
-        width: 16
-        height: 22
+        x: 552
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2235,10 +2235,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_48
       rect:
         serializedVersion: 2
-        x: 49
-        y: 290
-        width: 22
-        height: 20
+        x: 0
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2257,10 +2257,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_49
       rect:
         serializedVersion: 2
-        x: 71
-        y: 289
-        width: 50
-        height: 22
+        x: 24
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2279,10 +2279,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_50
       rect:
         serializedVersion: 2
-        x: 124
-        y: 287
-        width: 16
-        height: 26
+        x: 48
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2301,10 +2301,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_51
       rect:
         serializedVersion: 2
-        x: 145
-        y: 290
-        width: 22
-        height: 20
+        x: 72
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2323,10 +2323,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_52
       rect:
         serializedVersion: 2
-        x: 169
-        y: 292
-        width: 22
-        height: 16
+        x: 96
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2345,10 +2345,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_53
       rect:
         serializedVersion: 2
-        x: 198
-        y: 287
-        width: 12
-        height: 26
+        x: 120
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2367,10 +2367,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_54
       rect:
         serializedVersion: 2
-        x: 219
-        y: 291
-        width: 18
-        height: 18
+        x: 144
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2389,10 +2389,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_55
       rect:
         serializedVersion: 2
-        x: 241
-        y: 293
-        width: 22
-        height: 13
+        x: 168
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2411,10 +2411,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_56
       rect:
         serializedVersion: 2
-        x: 267
-        y: 291
-        width: 18
-        height: 18
+        x: 192
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2433,10 +2433,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_57
       rect:
         serializedVersion: 2
-        x: 293
-        y: 291
-        width: 14
-        height: 18
+        x: 216
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2455,10 +2455,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_58
       rect:
         serializedVersion: 2
-        x: 315
-        y: 291
-        width: 18
-        height: 18
+        x: 240
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2477,10 +2477,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_59
       rect:
         serializedVersion: 2
-        x: 337
-        y: 293
-        width: 22
-        height: 13
+        x: 264
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2499,10 +2499,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_60
       rect:
         serializedVersion: 2
-        x: 363
-        y: 291
-        width: 18
-        height: 18
+        x: 288
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2521,10 +2521,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_61
       rect:
         serializedVersion: 2
-        x: 388
-        y: 291
-        width: 17
-        height: 17
+        x: 312
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2543,10 +2543,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_62
       rect:
         serializedVersion: 2
-        x: 411
-        y: 291
-        width: 18
-        height: 18
+        x: 336
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2565,10 +2565,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_63
       rect:
         serializedVersion: 2
-        x: 436
-        y: 291
-        width: 17
-        height: 17
+        x: 360
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2587,10 +2587,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_64
       rect:
         serializedVersion: 2
-        x: 459
-        y: 291
-        width: 18
-        height: 18
+        x: 384
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2609,10 +2609,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_65
       rect:
         serializedVersion: 2
-        x: 484
-        y: 291
-        width: 17
-        height: 17
+        x: 408
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2631,10 +2631,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_66
       rect:
         serializedVersion: 2
-        x: 507
-        y: 291
-        width: 18
-        height: 18
+        x: 432
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2653,10 +2653,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_67
       rect:
         serializedVersion: 2
-        x: 532
-        y: 291
-        width: 17
-        height: 17
+        x: 456
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2675,10 +2675,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_68
       rect:
         serializedVersion: 2
-        x: 555
-        y: 291
-        width: 18
-        height: 18
+        x: 480
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2697,10 +2697,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_69
       rect:
         serializedVersion: 2
-        x: 7
-        y: 270
-        width: 10
-        height: 12
+        x: 504
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2719,10 +2719,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_70
       rect:
         serializedVersion: 2
-        x: 29
-        y: 269
-        width: 14
-        height: 14
+        x: 528
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2741,10 +2741,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_71
       rect:
         serializedVersion: 2
-        x: 53
-        y: 270
-        width: 14
-        height: 12
+        x: 552
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2763,10 +2763,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_72
       rect:
         serializedVersion: 2
-        x: 76
-        y: 267
-        width: 17
-        height: 17
+        x: 0
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2785,10 +2785,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_73
       rect:
         serializedVersion: 2
-        x: 101
-        y: 268
-        width: 14
-        height: 16
+        x: 24
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2807,10 +2807,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_74
       rect:
         serializedVersion: 2
-        x: 124
-        y: 267
-        width: 17
-        height: 17
+        x: 48
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2829,10 +2829,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_75
       rect:
         serializedVersion: 2
-        x: 149
-        y: 270
-        width: 14
-        height: 12
+        x: 72
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2851,10 +2851,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_76
       rect:
         serializedVersion: 2
-        x: 173
-        y: 269
-        width: 14
-        height: 14
+        x: 96
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2873,10 +2873,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_77
       rect:
         serializedVersion: 2
-        x: 197
-        y: 266
-        width: 14
-        height: 20
+        x: 120
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2895,10 +2895,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_78
       rect:
         serializedVersion: 2
-        x: 219
-        y: 267
-        width: 18
-        height: 18
+        x: 144
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2917,10 +2917,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_79
       rect:
         serializedVersion: 2
-        x: 243
-        y: 268
-        width: 18
-        height: 16
+        x: 168
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2939,10 +2939,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_80
       rect:
         serializedVersion: 2
-        x: 267
-        y: 267
-        width: 18
-        height: 18
+        x: 192
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2961,10 +2961,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_81
       rect:
         serializedVersion: 2
-        x: 291
-        y: 268
-        width: 18
-        height: 15
+        x: 216
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2983,10 +2983,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_82
       rect:
         serializedVersion: 2
-        x: 315
-        y: 267
-        width: 18
-        height: 18
+        x: 240
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3005,10 +3005,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_83
       rect:
         serializedVersion: 2
-        x: 339
-        y: 268
-        width: 18
-        height: 16
+        x: 264
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3027,10 +3027,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_84
       rect:
         serializedVersion: 2
-        x: 363
-        y: 266
-        width: 18
-        height: 19
+        x: 288
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3049,10 +3049,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_85
       rect:
         serializedVersion: 2
-        x: 386
-        y: 266
-        width: 20
-        height: 20
+        x: 312
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3071,10 +3071,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_86
       rect:
         serializedVersion: 2
-        x: 412
-        y: 268
-        width: 16
-        height: 16
+        x: 336
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3093,10 +3093,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_87
       rect:
         serializedVersion: 2
-        x: 434
-        y: 266
-        width: 20
-        height: 20
+        x: 360
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3115,10 +3115,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_88
       rect:
         serializedVersion: 2
-        x: 460
-        y: 268
-        width: 16
-        height: 16
+        x: 384
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3137,10 +3137,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_89
       rect:
         serializedVersion: 2
-        x: 482
-        y: 266
-        width: 20
-        height: 20
+        x: 408
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3159,10 +3159,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_90
       rect:
         serializedVersion: 2
-        x: 508
-        y: 268
-        width: 16
-        height: 16
+        x: 432
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3181,10 +3181,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_91
       rect:
         serializedVersion: 2
-        x: 530
-        y: 266
-        width: 20
-        height: 20
+        x: 456
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3203,10 +3203,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_92
       rect:
         serializedVersion: 2
-        x: 556
-        y: 268
-        width: 16
-        height: 16
+        x: 480
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3225,10 +3225,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_93
       rect:
         serializedVersion: 2
-        x: 9
-        y: 248
-        width: 7
-        height: 8
+        x: 504
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3247,10 +3247,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_94
       rect:
         serializedVersion: 2
-        x: 32
-        y: 247
-        width: 8
-        height: 10
+        x: 528
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3269,10 +3269,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_95
       rect:
         serializedVersion: 2
-        x: 54
-        y: 245
-        width: 13
-        height: 13
+        x: 552
+        y: 264
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3291,10 +3291,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_96
       rect:
         serializedVersion: 2
-        x: 77
-        y: 245
-        width: 15
-        height: 14
+        x: 0
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3313,10 +3313,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_97
       rect:
         serializedVersion: 2
-        x: 100
-        y: 244
-        width: 17
-        height: 16
+        x: 24
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3335,10 +3335,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_98
       rect:
         serializedVersion: 2
-        x: 125
-        y: 244
-        width: 14
-        height: 15
+        x: 48
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3357,10 +3357,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_99
       rect:
         serializedVersion: 2
-        x: 150
-        y: 245
-        width: 13
-        height: 13
+        x: 72
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3379,10 +3379,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_100
       rect:
         serializedVersion: 2
-        x: 175
-        y: 248
-        width: 10
-        height: 8
+        x: 96
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3401,10 +3401,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_101
       rect:
         serializedVersion: 2
-        x: 194
-        y: 242
-        width: 20
-        height: 20
+        x: 120
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3423,10 +3423,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_102
       rect:
         serializedVersion: 2
-        x: 218
-        y: 242
-        width: 19
-        height: 19
+        x: 144
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3445,10 +3445,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_103
       rect:
         serializedVersion: 2
-        x: 243
-        y: 243
-        width: 18
-        height: 18
+        x: 168
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3467,10 +3467,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_104
       rect:
         serializedVersion: 2
-        x: 267
-        y: 243
-        width: 18
-        height: 17
+        x: 192
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3489,10 +3489,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_105
       rect:
         serializedVersion: 2
-        x: 293
-        y: 243
-        width: 16
-        height: 18
+        x: 216
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3511,10 +3511,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_106
       rect:
         serializedVersion: 2
-        x: 316
-        y: 243
-        width: 17
-        height: 18
+        x: 240
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3533,10 +3533,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_107
       rect:
         serializedVersion: 2
-        x: 339
-        y: 243
-        width: 18
-        height: 18
+        x: 264
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3555,10 +3555,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_108
       rect:
         serializedVersion: 2
-        x: 362
-        y: 244
-        width: 20
-        height: 17
+        x: 288
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3577,10 +3577,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_109
       rect:
         serializedVersion: 2
-        x: 383
-        y: 239
-        width: 22
-        height: 15
+        x: 312
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3599,10 +3599,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_110
       rect:
         serializedVersion: 2
-        x: 412
-        y: 239
-        width: 20
-        height: 17
+        x: 336
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3621,10 +3621,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_111
       rect:
         serializedVersion: 2
-        x: 442
-        y: 239
-        width: 15
-        height: 22
+        x: 360
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3643,10 +3643,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_112
       rect:
         serializedVersion: 2
-        x: 464
-        y: 244
-        width: 17
-        height: 19
+        x: 384
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3665,10 +3665,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_113
       rect:
         serializedVersion: 2
-        x: 483
-        y: 249
-        width: 22
-        height: 16
+        x: 408
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3687,10 +3687,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_114
       rect:
         serializedVersion: 2
-        x: 505
-        y: 248
-        width: 19
-        height: 17
+        x: 432
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3709,10 +3709,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_115
       rect:
         serializedVersion: 2
-        x: 527
-        y: 243
-        width: 16
-        height: 22
+        x: 456
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3731,10 +3731,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_116
       rect:
         serializedVersion: 2
-        x: 551
+        x: 480
         y: 240
-        width: 17
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3753,8 +3753,8 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_117
       rect:
         serializedVersion: 2
-        x: 0
-        y: 216
+        x: 504
+        y: 240
         width: 24
         height: 24
       alignment: 0
@@ -3775,10 +3775,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_118
       rect:
         serializedVersion: 2
-        x: 26
-        y: 217
-        width: 20
-        height: 22
+        x: 528
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3797,10 +3797,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_119
       rect:
         serializedVersion: 2
-        x: 48
-        y: 215
-        width: 73
-        height: 26
+        x: 552
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3819,10 +3819,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_120
       rect:
         serializedVersion: 2
-        x: 120
-        y: 215
+        x: 0
+        y: 216
         width: 24
-        height: 26
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3841,10 +3841,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_121
       rect:
         serializedVersion: 2
-        x: 144
-        y: 215
-        width: 25
-        height: 26
+        x: 24
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3863,10 +3863,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_122
       rect:
         serializedVersion: 2
-        x: 169
-        y: 218
-        width: 22
-        height: 20
+        x: 48
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3885,10 +3885,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_123
       rect:
         serializedVersion: 2
-        x: 193
-        y: 218
-        width: 22
-        height: 19
+        x: 72
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3907,10 +3907,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_124
       rect:
         serializedVersion: 2
-        x: 217
-        y: 217
-        width: 22
-        height: 22
+        x: 96
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3929,10 +3929,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_125
       rect:
         serializedVersion: 2
-        x: 242
-        y: 218
-        width: 20
-        height: 20
+        x: 120
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3951,10 +3951,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_126
       rect:
         serializedVersion: 2
-        x: 266
-        y: 217
-        width: 21
-        height: 21
+        x: 144
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3973,10 +3973,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_127
       rect:
         serializedVersion: 2
-        x: 291
-        y: 218
-        width: 18
-        height: 20
+        x: 168
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3995,10 +3995,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_128
       rect:
         serializedVersion: 2
-        x: 313
-        y: 217
-        width: 22
-        height: 21
+        x: 192
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4017,10 +4017,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_129
       rect:
         serializedVersion: 2
-        x: 338
-        y: 218
-        width: 20
-        height: 20
+        x: 216
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4039,10 +4039,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_130
       rect:
         serializedVersion: 2
-        x: 361
-        y: 217
-        width: 22
-        height: 22
+        x: 240
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4061,10 +4061,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_131
       rect:
         serializedVersion: 2
-        x: 386
-        y: 220
-        width: 20
-        height: 20
+        x: 264
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4083,10 +4083,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_132
       rect:
         serializedVersion: 2
-        x: 410
-        y: 218
-        width: 20
-        height: 20
+        x: 288
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4105,10 +4105,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_133
       rect:
         serializedVersion: 2
-        x: 432
-        y: 218
-        width: 20
-        height: 20
+        x: 312
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4127,10 +4127,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_134
       rect:
         serializedVersion: 2
-        x: 458
-        y: 218
-        width: 20
-        height: 20
+        x: 336
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4149,10 +4149,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_135
       rect:
         serializedVersion: 2
-        x: 482
+        x: 360
         y: 216
-        width: 20
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4171,10 +4171,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_136
       rect:
         serializedVersion: 2
-        x: 506
-        y: 218
-        width: 20
-        height: 20
+        x: 384
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4193,10 +4193,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_137
       rect:
         serializedVersion: 2
-        x: 532
-        y: 218
-        width: 20
-        height: 20
+        x: 408
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4215,10 +4215,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_138
       rect:
         serializedVersion: 2
-        x: 554
-        y: 218
-        width: 20
-        height: 20
+        x: 432
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4237,10 +4237,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_139
       rect:
         serializedVersion: 2
-        x: 6
-        y: 199
-        width: 12
-        height: 10
+        x: 456
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4259,10 +4259,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_140
       rect:
         serializedVersion: 2
-        x: 29
-        y: 197
-        width: 14
-        height: 14
+        x: 480
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4281,10 +4281,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_141
       rect:
         serializedVersion: 2
-        x: 51
-        y: 199
-        width: 18
-        height: 10
+        x: 504
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4303,10 +4303,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_142
       rect:
         serializedVersion: 2
-        x: 75
-        y: 195
-        width: 18
-        height: 18
+        x: 528
+        y: 216
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4325,9 +4325,9 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_143
       rect:
         serializedVersion: 2
-        x: 104
-        y: 192
-        width: 8
+        x: 552
+        y: 216
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -4347,10 +4347,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_144
       rect:
         serializedVersion: 2
-        x: 123
-        y: 195
-        width: 18
-        height: 18
+        x: 0
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4369,10 +4369,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_145
       rect:
         serializedVersion: 2
-        x: 147
-        y: 199
-        width: 18
-        height: 10
+        x: 24
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4391,10 +4391,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_146
       rect:
         serializedVersion: 2
-        x: 173
-        y: 197
-        width: 14
-        height: 14
+        x: 48
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4413,10 +4413,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_147
       rect:
         serializedVersion: 2
-        x: 197
-        y: 193
-        width: 14
-        height: 22
+        x: 72
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4435,10 +4435,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_148
       rect:
         serializedVersion: 2
-        x: 220
-        y: 196
-        width: 16
-        height: 16
+        x: 96
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4457,10 +4457,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_149
       rect:
         serializedVersion: 2
-        x: 243
-        y: 196
-        width: 19
-        height: 16
+        x: 120
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4479,10 +4479,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_150
       rect:
         serializedVersion: 2
-        x: 269
-        y: 197
-        width: 14
-        height: 14
+        x: 144
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4501,10 +4501,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_151
       rect:
         serializedVersion: 2
-        x: 292
-        y: 196
-        width: 17
-        height: 16
+        x: 168
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4523,10 +4523,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_152
       rect:
         serializedVersion: 2
-        x: 317
-        y: 197
-        width: 14
-        height: 14
+        x: 192
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4545,10 +4545,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_153
       rect:
         serializedVersion: 2
-        x: 339
-        y: 196
-        width: 19
-        height: 16
+        x: 216
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4567,10 +4567,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_154
       rect:
         serializedVersion: 2
-        x: 364
-        y: 196
-        width: 16
-        height: 16
+        x: 240
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4589,10 +4589,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_155
       rect:
         serializedVersion: 2
-        x: 386
-        y: 194
-        width: 20
-        height: 18
+        x: 264
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4611,10 +4611,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_156
       rect:
         serializedVersion: 2
-        x: 411
-        y: 194
-        width: 19
-        height: 19
+        x: 288
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4633,10 +4633,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_157
       rect:
         serializedVersion: 2
-        x: 436
-        y: 194
-        width: 18
-        height: 20
+        x: 312
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4655,10 +4655,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_158
       rect:
         serializedVersion: 2
-        x: 459
-        y: 194
-        width: 19
-        height: 20
+        x: 336
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4677,10 +4677,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_159
       rect:
         serializedVersion: 2
-        x: 482
-        y: 196
-        width: 20
-        height: 18
+        x: 360
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4699,10 +4699,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_160
       rect:
         serializedVersion: 2
-        x: 506
-        y: 195
-        width: 20
-        height: 19
+        x: 384
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4721,10 +4721,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_161
       rect:
         serializedVersion: 2
-        x: 530
-        y: 194
-        width: 18
-        height: 20
+        x: 408
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4743,10 +4743,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_162
       rect:
         serializedVersion: 2
-        x: 554
-        y: 194
-        width: 19
-        height: 20
+        x: 432
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4765,10 +4765,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_163
       rect:
         serializedVersion: 2
-        x: 5
-        y: 170
-        width: 14
-        height: 20
+        x: 456
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4787,10 +4787,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_164
       rect:
         serializedVersion: 2
-        x: 28
-        y: 169
-        width: 16
-        height: 22
+        x: 480
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4809,10 +4809,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_165
       rect:
         serializedVersion: 2
-        x: 49
-        y: 170
-        width: 22
-        height: 20
+        x: 504
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4831,10 +4831,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_166
       rect:
         serializedVersion: 2
-        x: 71
-        y: 169
-        width: 50
-        height: 22
+        x: 528
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4853,10 +4853,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_167
       rect:
         serializedVersion: 2
-        x: 124
-        y: 167
-        width: 16
-        height: 26
+        x: 552
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4875,10 +4875,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_168
       rect:
         serializedVersion: 2
-        x: 145
-        y: 170
-        width: 22
-        height: 20
+        x: 0
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4897,10 +4897,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_169
       rect:
         serializedVersion: 2
-        x: 169
-        y: 172
-        width: 22
-        height: 16
+        x: 24
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4919,10 +4919,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_170
       rect:
         serializedVersion: 2
-        x: 198
-        y: 167
-        width: 12
-        height: 26
+        x: 48
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4941,10 +4941,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_171
       rect:
         serializedVersion: 2
-        x: 219
-        y: 171
-        width: 18
-        height: 18
+        x: 72
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4963,10 +4963,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_172
       rect:
         serializedVersion: 2
-        x: 241
-        y: 173
-        width: 22
-        height: 13
+        x: 96
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4985,10 +4985,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_173
       rect:
         serializedVersion: 2
-        x: 267
-        y: 171
-        width: 18
-        height: 18
+        x: 120
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5007,10 +5007,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_174
       rect:
         serializedVersion: 2
-        x: 293
-        y: 171
-        width: 14
-        height: 18
+        x: 144
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5029,10 +5029,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_175
       rect:
         serializedVersion: 2
-        x: 315
-        y: 171
-        width: 18
-        height: 18
+        x: 168
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5051,10 +5051,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_176
       rect:
         serializedVersion: 2
-        x: 337
-        y: 173
-        width: 22
-        height: 13
+        x: 192
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5073,10 +5073,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_177
       rect:
         serializedVersion: 2
-        x: 363
-        y: 171
-        width: 18
-        height: 18
+        x: 216
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5095,10 +5095,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_178
       rect:
         serializedVersion: 2
-        x: 388
-        y: 171
-        width: 17
-        height: 17
+        x: 240
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5117,10 +5117,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_179
       rect:
         serializedVersion: 2
-        x: 411
-        y: 171
-        width: 18
-        height: 18
+        x: 264
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5139,10 +5139,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_180
       rect:
         serializedVersion: 2
-        x: 436
-        y: 171
-        width: 17
-        height: 17
+        x: 288
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5161,10 +5161,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_181
       rect:
         serializedVersion: 2
-        x: 459
-        y: 171
-        width: 18
-        height: 18
+        x: 312
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5183,10 +5183,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_182
       rect:
         serializedVersion: 2
-        x: 484
-        y: 171
-        width: 17
-        height: 17
+        x: 336
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5205,10 +5205,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_183
       rect:
         serializedVersion: 2
-        x: 507
-        y: 171
-        width: 18
-        height: 18
+        x: 360
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5227,10 +5227,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_184
       rect:
         serializedVersion: 2
-        x: 532
-        y: 171
-        width: 17
-        height: 17
+        x: 384
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5249,10 +5249,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_185
       rect:
         serializedVersion: 2
-        x: 555
-        y: 171
-        width: 18
-        height: 18
+        x: 408
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5271,10 +5271,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_186
       rect:
         serializedVersion: 2
-        x: 7
-        y: 150
-        width: 10
-        height: 12
+        x: 432
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5293,10 +5293,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_187
       rect:
         serializedVersion: 2
-        x: 29
-        y: 149
-        width: 14
-        height: 14
+        x: 456
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5315,10 +5315,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_188
       rect:
         serializedVersion: 2
-        x: 53
-        y: 150
-        width: 14
-        height: 12
+        x: 480
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5337,10 +5337,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_189
       rect:
         serializedVersion: 2
-        x: 76
-        y: 147
-        width: 17
-        height: 17
+        x: 504
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5359,10 +5359,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_190
       rect:
         serializedVersion: 2
-        x: 101
-        y: 148
-        width: 14
-        height: 16
+        x: 528
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5381,10 +5381,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_191
       rect:
         serializedVersion: 2
-        x: 124
-        y: 147
-        width: 17
-        height: 17
+        x: 552
+        y: 168
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5403,10 +5403,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_192
       rect:
         serializedVersion: 2
-        x: 149
-        y: 150
-        width: 14
-        height: 12
+        x: 0
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5425,10 +5425,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_193
       rect:
         serializedVersion: 2
-        x: 173
-        y: 149
-        width: 14
-        height: 14
+        x: 24
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5447,10 +5447,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_194
       rect:
         serializedVersion: 2
-        x: 197
-        y: 146
-        width: 14
-        height: 20
+        x: 48
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5469,10 +5469,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_195
       rect:
         serializedVersion: 2
-        x: 219
-        y: 147
-        width: 18
-        height: 18
+        x: 72
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5491,10 +5491,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_196
       rect:
         serializedVersion: 2
-        x: 243
-        y: 148
-        width: 18
-        height: 16
+        x: 96
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5513,10 +5513,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_197
       rect:
         serializedVersion: 2
-        x: 267
-        y: 147
-        width: 18
-        height: 18
+        x: 120
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5535,10 +5535,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_198
       rect:
         serializedVersion: 2
-        x: 291
-        y: 148
-        width: 18
-        height: 15
+        x: 144
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5557,10 +5557,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_199
       rect:
         serializedVersion: 2
-        x: 315
-        y: 147
-        width: 18
-        height: 18
+        x: 168
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5579,10 +5579,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_200
       rect:
         serializedVersion: 2
-        x: 339
-        y: 148
-        width: 18
-        height: 16
+        x: 192
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5601,10 +5601,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_201
       rect:
         serializedVersion: 2
-        x: 363
-        y: 146
-        width: 18
-        height: 19
+        x: 216
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5623,10 +5623,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_202
       rect:
         serializedVersion: 2
-        x: 386
-        y: 146
-        width: 20
-        height: 20
+        x: 240
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5645,10 +5645,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_203
       rect:
         serializedVersion: 2
-        x: 412
-        y: 148
-        width: 16
-        height: 16
+        x: 264
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5667,10 +5667,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_204
       rect:
         serializedVersion: 2
-        x: 434
-        y: 146
-        width: 20
-        height: 20
+        x: 288
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5689,10 +5689,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_205
       rect:
         serializedVersion: 2
-        x: 460
-        y: 148
-        width: 16
-        height: 16
+        x: 312
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5711,10 +5711,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_206
       rect:
         serializedVersion: 2
-        x: 482
-        y: 146
-        width: 20
-        height: 20
+        x: 336
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5733,10 +5733,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_207
       rect:
         serializedVersion: 2
-        x: 508
-        y: 148
-        width: 16
-        height: 16
+        x: 360
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5755,10 +5755,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_208
       rect:
         serializedVersion: 2
-        x: 530
-        y: 146
-        width: 20
-        height: 20
+        x: 384
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5777,10 +5777,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_209
       rect:
         serializedVersion: 2
-        x: 556
-        y: 148
-        width: 16
-        height: 16
+        x: 408
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5799,10 +5799,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_210
       rect:
         serializedVersion: 2
-        x: 9
-        y: 128
-        width: 7
-        height: 8
+        x: 432
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5821,10 +5821,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_211
       rect:
         serializedVersion: 2
-        x: 32
-        y: 127
-        width: 8
-        height: 10
+        x: 456
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5843,10 +5843,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_212
       rect:
         serializedVersion: 2
-        x: 54
-        y: 125
-        width: 13
-        height: 13
+        x: 480
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5865,10 +5865,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_213
       rect:
         serializedVersion: 2
-        x: 77
-        y: 125
-        width: 15
-        height: 14
+        x: 504
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5887,10 +5887,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_214
       rect:
         serializedVersion: 2
-        x: 100
-        y: 124
-        width: 17
-        height: 16
+        x: 528
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5909,10 +5909,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_215
       rect:
         serializedVersion: 2
-        x: 125
-        y: 124
-        width: 14
-        height: 15
+        x: 552
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5931,10 +5931,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_216
       rect:
         serializedVersion: 2
-        x: 150
-        y: 125
-        width: 13
-        height: 13
+        x: 0
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5953,10 +5953,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_217
       rect:
         serializedVersion: 2
-        x: 175
-        y: 128
-        width: 10
-        height: 8
+        x: 24
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5975,10 +5975,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_218
       rect:
         serializedVersion: 2
-        x: 194
-        y: 122
-        width: 20
-        height: 20
+        x: 48
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5997,10 +5997,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_219
       rect:
         serializedVersion: 2
-        x: 218
-        y: 122
-        width: 19
-        height: 19
+        x: 72
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6019,10 +6019,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_220
       rect:
         serializedVersion: 2
-        x: 243
-        y: 123
-        width: 18
-        height: 18
+        x: 96
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6041,10 +6041,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_221
       rect:
         serializedVersion: 2
-        x: 267
-        y: 123
-        width: 18
-        height: 17
+        x: 120
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6063,10 +6063,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_222
       rect:
         serializedVersion: 2
-        x: 293
-        y: 123
-        width: 16
-        height: 18
+        x: 144
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6085,10 +6085,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_223
       rect:
         serializedVersion: 2
-        x: 316
-        y: 123
-        width: 17
-        height: 18
+        x: 168
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6107,10 +6107,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_224
       rect:
         serializedVersion: 2
-        x: 339
-        y: 123
-        width: 18
-        height: 18
+        x: 192
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6129,10 +6129,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_225
       rect:
         serializedVersion: 2
-        x: 362
-        y: 124
-        width: 20
-        height: 17
+        x: 216
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6151,10 +6151,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_226
       rect:
         serializedVersion: 2
-        x: 383
-        y: 119
-        width: 22
-        height: 15
+        x: 240
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6173,10 +6173,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_227
       rect:
         serializedVersion: 2
-        x: 412
-        y: 119
-        width: 20
-        height: 17
+        x: 264
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6195,10 +6195,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_228
       rect:
         serializedVersion: 2
-        x: 442
-        y: 119
-        width: 15
-        height: 22
+        x: 288
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6217,10 +6217,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_229
       rect:
         serializedVersion: 2
-        x: 464
-        y: 124
-        width: 17
-        height: 19
+        x: 312
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6239,10 +6239,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_230
       rect:
         serializedVersion: 2
-        x: 483
-        y: 129
-        width: 22
-        height: 16
+        x: 336
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6261,10 +6261,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_231
       rect:
         serializedVersion: 2
-        x: 505
-        y: 128
-        width: 19
-        height: 17
+        x: 360
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6283,10 +6283,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_232
       rect:
         serializedVersion: 2
-        x: 527
-        y: 123
-        width: 16
-        height: 22
+        x: 384
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6305,10 +6305,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_233
       rect:
         serializedVersion: 2
-        x: 551
+        x: 408
         y: 120
-        width: 17
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6327,8 +6327,8 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_234
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 432
+        y: 120
         width: 24
         height: 24
       alignment: 0
@@ -6349,10 +6349,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_235
       rect:
         serializedVersion: 2
-        x: 26
-        y: 97
-        width: 20
-        height: 22
+        x: 456
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6371,10 +6371,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_236
       rect:
         serializedVersion: 2
-        x: 48
-        y: 95
-        width: 73
-        height: 26
+        x: 480
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6393,10 +6393,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_237
       rect:
         serializedVersion: 2
-        x: 120
-        y: 95
+        x: 504
+        y: 120
         width: 24
-        height: 26
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6415,10 +6415,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_238
       rect:
         serializedVersion: 2
-        x: 144
-        y: 95
-        width: 25
-        height: 26
+        x: 528
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6437,10 +6437,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_239
       rect:
         serializedVersion: 2
-        x: 169
-        y: 98
-        width: 22
-        height: 20
+        x: 552
+        y: 120
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6459,10 +6459,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_240
       rect:
         serializedVersion: 2
-        x: 193
-        y: 98
-        width: 22
-        height: 19
+        x: 0
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6481,10 +6481,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_241
       rect:
         serializedVersion: 2
-        x: 217
-        y: 97
-        width: 22
-        height: 22
+        x: 24
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6503,10 +6503,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_242
       rect:
         serializedVersion: 2
-        x: 242
-        y: 98
-        width: 20
-        height: 20
+        x: 48
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6525,10 +6525,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_243
       rect:
         serializedVersion: 2
-        x: 266
-        y: 97
-        width: 21
-        height: 21
+        x: 72
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6547,10 +6547,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_244
       rect:
         serializedVersion: 2
-        x: 291
-        y: 98
-        width: 18
-        height: 20
+        x: 96
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6569,10 +6569,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_245
       rect:
         serializedVersion: 2
-        x: 313
-        y: 97
-        width: 22
-        height: 21
+        x: 120
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6591,10 +6591,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_246
       rect:
         serializedVersion: 2
-        x: 338
-        y: 98
-        width: 20
-        height: 20
+        x: 144
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6613,10 +6613,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_247
       rect:
         serializedVersion: 2
-        x: 361
-        y: 97
-        width: 22
-        height: 22
+        x: 168
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6635,10 +6635,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_248
       rect:
         serializedVersion: 2
-        x: 386
-        y: 100
-        width: 20
-        height: 20
+        x: 192
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6657,10 +6657,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_249
       rect:
         serializedVersion: 2
-        x: 410
-        y: 98
-        width: 20
-        height: 20
+        x: 216
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6679,10 +6679,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_250
       rect:
         serializedVersion: 2
-        x: 432
-        y: 98
-        width: 20
-        height: 20
+        x: 240
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6701,10 +6701,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_251
       rect:
         serializedVersion: 2
-        x: 458
-        y: 98
-        width: 20
-        height: 20
+        x: 264
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6723,10 +6723,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_252
       rect:
         serializedVersion: 2
-        x: 482
+        x: 288
         y: 96
-        width: 20
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6745,10 +6745,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_253
       rect:
         serializedVersion: 2
-        x: 506
-        y: 98
-        width: 20
-        height: 20
+        x: 312
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6767,10 +6767,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_254
       rect:
         serializedVersion: 2
-        x: 532
-        y: 98
-        width: 20
-        height: 20
+        x: 336
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6789,10 +6789,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_255
       rect:
         serializedVersion: 2
-        x: 554
-        y: 98
-        width: 20
-        height: 20
+        x: 360
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6811,10 +6811,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_256
       rect:
         serializedVersion: 2
-        x: 6
-        y: 79
-        width: 12
-        height: 10
+        x: 384
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6833,10 +6833,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_257
       rect:
         serializedVersion: 2
-        x: 29
-        y: 77
-        width: 14
-        height: 14
+        x: 408
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6855,10 +6855,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_258
       rect:
         serializedVersion: 2
-        x: 51
-        y: 79
-        width: 18
-        height: 10
+        x: 432
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6877,10 +6877,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_259
       rect:
         serializedVersion: 2
-        x: 75
-        y: 75
-        width: 18
-        height: 18
+        x: 456
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6899,9 +6899,9 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_260
       rect:
         serializedVersion: 2
-        x: 104
-        y: 72
-        width: 8
+        x: 480
+        y: 96
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -6921,10 +6921,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_261
       rect:
         serializedVersion: 2
-        x: 123
-        y: 75
-        width: 18
-        height: 18
+        x: 504
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6943,10 +6943,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_262
       rect:
         serializedVersion: 2
-        x: 147
-        y: 79
-        width: 18
-        height: 10
+        x: 528
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6965,10 +6965,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_263
       rect:
         serializedVersion: 2
-        x: 173
-        y: 77
-        width: 14
-        height: 14
+        x: 552
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6987,10 +6987,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_264
       rect:
         serializedVersion: 2
-        x: 197
-        y: 73
-        width: 14
-        height: 22
+        x: 0
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7009,10 +7009,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_265
       rect:
         serializedVersion: 2
-        x: 220
-        y: 76
-        width: 16
-        height: 16
+        x: 24
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7031,10 +7031,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_266
       rect:
         serializedVersion: 2
-        x: 243
-        y: 76
-        width: 19
-        height: 16
+        x: 48
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7053,10 +7053,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_267
       rect:
         serializedVersion: 2
-        x: 269
-        y: 77
-        width: 14
-        height: 14
+        x: 72
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7075,10 +7075,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_268
       rect:
         serializedVersion: 2
-        x: 292
-        y: 76
-        width: 17
-        height: 16
+        x: 96
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7097,10 +7097,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_269
       rect:
         serializedVersion: 2
-        x: 317
-        y: 77
-        width: 14
-        height: 14
+        x: 120
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7119,10 +7119,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_270
       rect:
         serializedVersion: 2
-        x: 339
-        y: 76
-        width: 19
-        height: 16
+        x: 144
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7141,10 +7141,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_271
       rect:
         serializedVersion: 2
-        x: 364
-        y: 76
-        width: 16
-        height: 16
+        x: 168
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7163,10 +7163,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_272
       rect:
         serializedVersion: 2
-        x: 386
-        y: 74
-        width: 20
-        height: 18
+        x: 192
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7185,10 +7185,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_273
       rect:
         serializedVersion: 2
-        x: 411
-        y: 74
-        width: 19
-        height: 19
+        x: 216
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7207,10 +7207,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_274
       rect:
         serializedVersion: 2
-        x: 436
-        y: 74
-        width: 18
-        height: 20
+        x: 240
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7229,10 +7229,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_275
       rect:
         serializedVersion: 2
-        x: 459
-        y: 74
-        width: 19
-        height: 20
+        x: 264
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7251,10 +7251,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_276
       rect:
         serializedVersion: 2
-        x: 482
-        y: 76
-        width: 20
-        height: 18
+        x: 288
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7273,10 +7273,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_277
       rect:
         serializedVersion: 2
-        x: 506
-        y: 75
-        width: 20
-        height: 19
+        x: 312
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7295,10 +7295,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_278
       rect:
         serializedVersion: 2
-        x: 530
-        y: 74
-        width: 18
-        height: 20
+        x: 336
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7317,10 +7317,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_279
       rect:
         serializedVersion: 2
-        x: 554
-        y: 74
-        width: 19
-        height: 20
+        x: 360
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7339,10 +7339,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_280
       rect:
         serializedVersion: 2
-        x: 5
-        y: 50
-        width: 14
-        height: 20
+        x: 384
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7361,10 +7361,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_281
       rect:
         serializedVersion: 2
-        x: 28
-        y: 49
-        width: 16
-        height: 22
+        x: 408
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7383,10 +7383,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_282
       rect:
         serializedVersion: 2
-        x: 49
-        y: 50
-        width: 22
-        height: 20
+        x: 432
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7405,10 +7405,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_283
       rect:
         serializedVersion: 2
-        x: 71
-        y: 49
-        width: 50
-        height: 22
+        x: 456
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7427,10 +7427,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_284
       rect:
         serializedVersion: 2
-        x: 124
-        y: 47
-        width: 16
-        height: 26
+        x: 480
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7449,10 +7449,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_285
       rect:
         serializedVersion: 2
-        x: 145
-        y: 50
-        width: 22
-        height: 20
+        x: 504
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7471,10 +7471,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_286
       rect:
         serializedVersion: 2
-        x: 169
-        y: 52
-        width: 22
-        height: 16
+        x: 528
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7493,10 +7493,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_287
       rect:
         serializedVersion: 2
-        x: 198
-        y: 47
-        width: 12
-        height: 26
+        x: 552
+        y: 72
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7515,10 +7515,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_288
       rect:
         serializedVersion: 2
-        x: 219
-        y: 51
-        width: 18
-        height: 18
+        x: 0
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7537,10 +7537,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_289
       rect:
         serializedVersion: 2
-        x: 241
-        y: 53
-        width: 22
-        height: 13
+        x: 24
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7559,10 +7559,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_290
       rect:
         serializedVersion: 2
-        x: 267
-        y: 51
-        width: 18
-        height: 18
+        x: 48
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7581,10 +7581,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_291
       rect:
         serializedVersion: 2
-        x: 293
-        y: 51
-        width: 14
-        height: 18
+        x: 72
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7603,10 +7603,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_292
       rect:
         serializedVersion: 2
-        x: 315
-        y: 51
-        width: 18
-        height: 18
+        x: 96
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7625,10 +7625,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_293
       rect:
         serializedVersion: 2
-        x: 337
-        y: 53
-        width: 22
-        height: 13
+        x: 120
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7647,10 +7647,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_294
       rect:
         serializedVersion: 2
-        x: 363
-        y: 51
-        width: 18
-        height: 18
+        x: 144
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7669,10 +7669,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_295
       rect:
         serializedVersion: 2
-        x: 388
-        y: 51
-        width: 17
-        height: 17
+        x: 168
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7691,10 +7691,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_296
       rect:
         serializedVersion: 2
-        x: 411
-        y: 51
-        width: 18
-        height: 18
+        x: 192
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7713,10 +7713,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_297
       rect:
         serializedVersion: 2
-        x: 436
-        y: 51
-        width: 17
-        height: 17
+        x: 216
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7735,10 +7735,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_298
       rect:
         serializedVersion: 2
-        x: 459
-        y: 51
-        width: 18
-        height: 18
+        x: 240
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7757,10 +7757,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_299
       rect:
         serializedVersion: 2
-        x: 484
-        y: 51
-        width: 17
-        height: 17
+        x: 264
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7779,10 +7779,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_300
       rect:
         serializedVersion: 2
-        x: 507
-        y: 51
-        width: 18
-        height: 18
+        x: 288
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7801,10 +7801,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_301
       rect:
         serializedVersion: 2
-        x: 532
-        y: 51
-        width: 17
-        height: 17
+        x: 312
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7823,10 +7823,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_302
       rect:
         serializedVersion: 2
-        x: 555
-        y: 51
-        width: 18
-        height: 18
+        x: 336
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7845,10 +7845,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_303
       rect:
         serializedVersion: 2
-        x: 7
-        y: 30
-        width: 10
-        height: 12
+        x: 360
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7867,10 +7867,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_304
       rect:
         serializedVersion: 2
-        x: 29
-        y: 29
-        width: 14
-        height: 14
+        x: 384
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7889,10 +7889,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_305
       rect:
         serializedVersion: 2
-        x: 53
-        y: 30
-        width: 14
-        height: 12
+        x: 408
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7911,10 +7911,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_306
       rect:
         serializedVersion: 2
-        x: 76
-        y: 27
-        width: 17
-        height: 17
+        x: 432
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7933,10 +7933,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_307
       rect:
         serializedVersion: 2
-        x: 101
-        y: 28
-        width: 14
-        height: 16
+        x: 456
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7955,10 +7955,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_308
       rect:
         serializedVersion: 2
-        x: 124
-        y: 27
-        width: 17
-        height: 17
+        x: 480
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7977,10 +7977,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_309
       rect:
         serializedVersion: 2
-        x: 149
-        y: 30
-        width: 14
-        height: 12
+        x: 504
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7999,10 +7999,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_310
       rect:
         serializedVersion: 2
-        x: 173
-        y: 29
-        width: 14
-        height: 14
+        x: 528
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8021,10 +8021,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_311
       rect:
         serializedVersion: 2
-        x: 197
-        y: 26
-        width: 14
-        height: 20
+        x: 552
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8043,10 +8043,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_312
       rect:
         serializedVersion: 2
-        x: 219
-        y: 27
-        width: 18
-        height: 18
+        x: 0
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8065,10 +8065,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_313
       rect:
         serializedVersion: 2
-        x: 243
-        y: 28
-        width: 18
-        height: 16
+        x: 24
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8087,10 +8087,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_314
       rect:
         serializedVersion: 2
-        x: 267
-        y: 27
-        width: 18
-        height: 18
+        x: 48
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8109,10 +8109,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_315
       rect:
         serializedVersion: 2
-        x: 291
-        y: 28
-        width: 18
-        height: 15
+        x: 72
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8131,10 +8131,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_316
       rect:
         serializedVersion: 2
-        x: 315
-        y: 27
-        width: 18
-        height: 18
+        x: 96
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8153,10 +8153,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_317
       rect:
         serializedVersion: 2
-        x: 339
-        y: 28
-        width: 18
-        height: 16
+        x: 120
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8175,10 +8175,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_318
       rect:
         serializedVersion: 2
-        x: 363
-        y: 26
-        width: 18
-        height: 19
+        x: 144
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8197,10 +8197,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_319
       rect:
         serializedVersion: 2
-        x: 386
-        y: 26
-        width: 20
-        height: 20
+        x: 168
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8219,10 +8219,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_320
       rect:
         serializedVersion: 2
-        x: 412
-        y: 28
-        width: 16
-        height: 16
+        x: 192
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8241,10 +8241,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_321
       rect:
         serializedVersion: 2
-        x: 434
-        y: 26
-        width: 20
-        height: 20
+        x: 216
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8263,10 +8263,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_322
       rect:
         serializedVersion: 2
-        x: 460
-        y: 28
-        width: 16
-        height: 16
+        x: 240
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8285,10 +8285,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_323
       rect:
         serializedVersion: 2
-        x: 482
-        y: 26
-        width: 20
-        height: 20
+        x: 264
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8307,10 +8307,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_324
       rect:
         serializedVersion: 2
-        x: 508
-        y: 28
-        width: 16
-        height: 16
+        x: 288
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8329,10 +8329,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_325
       rect:
         serializedVersion: 2
-        x: 530
-        y: 26
-        width: 20
-        height: 20
+        x: 312
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8351,10 +8351,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_326
       rect:
         serializedVersion: 2
-        x: 556
-        y: 28
-        width: 16
-        height: 16
+        x: 336
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8373,10 +8373,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_327
       rect:
         serializedVersion: 2
-        x: 9
-        y: 8
-        width: 7
-        height: 8
+        x: 360
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8395,10 +8395,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_328
       rect:
         serializedVersion: 2
-        x: 32
-        y: 7
-        width: 8
-        height: 10
+        x: 384
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8417,10 +8417,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_329
       rect:
         serializedVersion: 2
-        x: 54
-        y: 5
-        width: 13
-        height: 13
+        x: 408
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8439,10 +8439,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_330
       rect:
         serializedVersion: 2
-        x: 77
-        y: 5
-        width: 15
-        height: 14
+        x: 432
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8461,10 +8461,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_331
       rect:
         serializedVersion: 2
-        x: 100
-        y: 4
-        width: 17
-        height: 16
+        x: 456
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8483,10 +8483,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_332
       rect:
         serializedVersion: 2
-        x: 125
-        y: 4
-        width: 14
-        height: 15
+        x: 480
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8505,10 +8505,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_333
       rect:
         serializedVersion: 2
-        x: 150
-        y: 5
-        width: 13
-        height: 13
+        x: 504
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8527,10 +8527,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_334
       rect:
         serializedVersion: 2
-        x: 175
-        y: 8
-        width: 10
-        height: 8
+        x: 528
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8549,10 +8549,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_335
       rect:
         serializedVersion: 2
-        x: 194
-        y: 2
-        width: 20
-        height: 20
+        x: 552
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8571,10 +8571,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_336
       rect:
         serializedVersion: 2
-        x: 218
-        y: 2
-        width: 19
-        height: 19
+        x: 0
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8593,10 +8593,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_337
       rect:
         serializedVersion: 2
-        x: 243
-        y: 3
-        width: 18
-        height: 18
+        x: 24
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8615,10 +8615,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_338
       rect:
         serializedVersion: 2
-        x: 267
-        y: 3
-        width: 18
-        height: 17
+        x: 48
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8637,10 +8637,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_339
       rect:
         serializedVersion: 2
-        x: 293
-        y: 3
-        width: 16
-        height: 18
+        x: 72
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8659,10 +8659,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_340
       rect:
         serializedVersion: 2
-        x: 316
-        y: 3
-        width: 17
-        height: 18
+        x: 96
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8681,10 +8681,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_341
       rect:
         serializedVersion: 2
-        x: 339
-        y: 3
-        width: 18
-        height: 18
+        x: 120
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8703,10 +8703,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_342
       rect:
         serializedVersion: 2
-        x: 362
-        y: 4
-        width: 20
-        height: 17
+        x: 144
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8725,10 +8725,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_343
       rect:
         serializedVersion: 2
-        x: 383
+        x: 168
         y: 0
-        width: 22
-        height: 14
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8747,10 +8747,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_344
       rect:
         serializedVersion: 2
-        x: 412
+        x: 192
         y: 0
-        width: 20
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8769,10 +8769,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_345
       rect:
         serializedVersion: 2
-        x: 442
+        x: 216
         y: 0
-        width: 15
-        height: 21
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8791,10 +8791,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_346
       rect:
         serializedVersion: 2
-        x: 464
-        y: 4
-        width: 17
-        height: 19
+        x: 240
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8813,10 +8813,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_347
       rect:
         serializedVersion: 2
-        x: 483
-        y: 9
-        width: 22
-        height: 16
+        x: 264
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8835,10 +8835,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_348
       rect:
         serializedVersion: 2
-        x: 505
-        y: 8
-        width: 19
-        height: 17
+        x: 288
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8857,10 +8857,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_349
       rect:
         serializedVersion: 2
-        x: 527
-        y: 3
-        width: 16
-        height: 22
+        x: 312
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8879,10 +8879,10 @@ TextureImporter:
       name: Bullet 24x24 Free  Part 1C_350
       rect:
         serializedVersion: 2
-        x: 551
+        x: 336
         y: 0
-        width: 17
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8897,11 +8897,209 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_351
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff8c27400c0b85409ae222f739f7f17
+      internalID: -1428723683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_352
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2a85a23c0d360429743af4caf7a2c0
+      internalID: -2026414584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_353
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeb013fb69aca345a95120a50fe9cba
+      internalID: 2117779473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_354
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c479cf75c46164db9bc0d9c89760ac
+      internalID: -1560118607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_355
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72de588583dcca459b35220cf710612
+      internalID: -1104647018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_356
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6384afb36243844b815e3feab16c466
+      internalID: -306252171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_357
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a473ec21500564984c96fd6f864868
+      internalID: -606925985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_358
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0c0072c3e815848be302a2c44a9110
+      internalID: -2101274744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free  Part 1C_359
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14eaa698b60b5604c81f434b2f56252f
+      internalID: -1720267384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e8612f08173217643a8de7d770c76d1f
     internalID: 0
     vertices: []
     indices: 
@@ -9192,6 +9390,15 @@ TextureImporter:
       Bullet 24x24 Free  Part 1C_349: -5415648280841030616
       Bullet 24x24 Free  Part 1C_35: 2749780359457184984
       Bullet 24x24 Free  Part 1C_350: 4876987145521275231
+      Bullet 24x24 Free  Part 1C_351: -1428723683
+      Bullet 24x24 Free  Part 1C_352: -2026414584
+      Bullet 24x24 Free  Part 1C_353: 2117779473
+      Bullet 24x24 Free  Part 1C_354: -1560118607
+      Bullet 24x24 Free  Part 1C_355: -1104647018
+      Bullet 24x24 Free  Part 1C_356: -306252171
+      Bullet 24x24 Free  Part 1C_357: -606925985
+      Bullet 24x24 Free  Part 1C_358: -2101274744
+      Bullet 24x24 Free  Part 1C_359: -1720267384
       Bullet 24x24 Free  Part 1C_36: -75058327360248417
       Bullet 24x24 Free  Part 1C_37: 1933151337551110422
       Bullet 24x24 Free  Part 1C_38: -2090808055409240403

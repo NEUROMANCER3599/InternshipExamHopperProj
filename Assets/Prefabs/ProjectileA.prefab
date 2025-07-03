@@ -80,8 +80,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: -3578331273722659734, guid: 6c61602a9a7babd4bb946da363fa5194, type: 3}
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 826922017, guid: 2090a3f5ac5a21f489d2e3580300e8c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -213,3 +213,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ProjectileSpeed: 1
   DespawnTime: 3
+  _player: {fileID: 0}
+  _animator: {fileID: 0}
+  rb: {fileID: 0}

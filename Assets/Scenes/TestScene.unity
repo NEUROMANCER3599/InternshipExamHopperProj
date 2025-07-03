@@ -423,6 +423,8 @@ MonoBehaviour:
   EntityList:
   - {fileID: 6401701953907888561, guid: 7b5575c7e8ff19340a37e476dc03b39e, type: 3}
   - {fileID: 2467844238676957344, guid: 77f50e7d2b65bfa449fa9af6936757c7, type: 3}
+  - {fileID: 6401701953907888561, guid: 860de65fea70f664098b1b66aca30e22, type: 3}
+  - {fileID: 6401701953907888561, guid: 6a2ba9c4154b6d74db7acfa3724420e6, type: 3}
   PlayerPrefab: {fileID: 2465796553945486903, guid: 094a93c6823fc9e419dee2a95eaac123, type: 3}
   StartingBlockPosition: {x: 0, y: -1.5, z: 0}
   StartingBlockPrefab: {fileID: -2421101259523926199, guid: 6ea922b65053a89498cd87a133d2ac5c, type: 3}
