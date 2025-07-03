@@ -417,6 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b14e60702c50b3b448dedc77fe0b5833, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Score: 0
   BlockList:
   - {fileID: 2245297594938336629, guid: bda8663d68723e04f9fa299c16deadde, type: 3}
   EntityList:

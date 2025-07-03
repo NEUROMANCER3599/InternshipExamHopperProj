@@ -1,6 +1,5 @@
 using UnityEngine;
 using DG.Tweening;
-using Unity.VisualScripting;
 
 [RequireComponent(typeof(Entity))]
 public class PlayerBehavior : Entity
@@ -14,6 +13,7 @@ public class PlayerBehavior : Entity
     [Header("Parameters")]
     [SerializeField] private KeyCode JumpInput = KeyCode.Space;
     [SerializeField] private KeyCode AttackInput = KeyCode.E;
+    [SerializeField] private KeyCode DefendInput = KeyCode.F;
     public Transform AttackPoint;
     public float AttackHitBoxRadius = 1f;
     public float JumpPositionOffset = 0.375f;
@@ -28,6 +28,7 @@ public class PlayerBehavior : Entity
     [SerializeField] private int StepNum = 0;
     private bool IsActive = true;
     private bool IsAttacking;
+    private bool IsDefending;
     private Rigidbody2D rb;
     private GameManager gameManager;
     private BoxCollider2D col;
@@ -42,21 +43,18 @@ public class PlayerBehavior : Entity
 
     public override void UpdateData()
     {
-        if (Input.GetKeyDown(JumpInput))
-        {
+            
             if (!GroundCheck()) return;
             if (!IsActive) return;
             if(IsAttacking) return;
-            Jump();
-        }
 
-        if (Input.GetKeyDown(AttackInput))
-        {
-            if (!GroundCheck()) return;
-            if (!IsActive) return;
-            if (IsAttacking) return;
+            Defend();
+
+            if (IsDefending) return;
+
+            Jump();
             StartAttack();
-        }
+      
     }
 
     private Vector3 GetJumpPosition()
@@ -67,20 +65,39 @@ public class PlayerBehavior : Entity
 
     private void Jump()
     {
-        if (StepNum + 1 >= gameManager.SpawnedBlocks.Count) return;
+        if (Input.GetKeyDown(JumpInput))
+        {
+            if (StepNum + 1 >= gameManager.SpawnedBlocks.Count) return;
 
-        rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, false);
-        _animator.SetTrigger("Jump");
-        StepNum++;
-       
+            rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, false);
+            _animator.SetTrigger("Jump");
+            StepNum++;
+        }
     }
 
     private void StartAttack()
     {
-        IsAttacking = true;
-        int RandomAnimIndex = Random.Range(0, 3);
-        _animator.SetInteger("AttackAnimIndex", RandomAnimIndex);
-        _animator.SetTrigger("OnAttack");
+        if (Input.GetKeyDown(AttackInput))
+        {
+            IsAttacking = true;
+            int RandomAnimIndex = Random.Range(0, 3);
+            _animator.SetInteger("AttackAnimIndex", RandomAnimIndex);
+            _animator.SetTrigger("OnAttack");
+        }
+    }
+
+    private void Defend()
+    {
+        if (Input.GetKeyDown(DefendInput))
+        {
+            IsDefending = true;
+        }
+        if (Input.GetKeyUp(DefendInput))
+        {
+            IsDefending = false;
+        }
+
+        _animator.SetBool("IsDefending",IsDefending);
     }
 
     private bool GroundCheck()
@@ -107,6 +124,7 @@ public class PlayerBehavior : Entity
     public void OnDamaged()
     {
         if(!IsActive) return;
+        if(IsDefending) return;
         LifePoint--;
         _animator.SetTrigger("OnHurt");
         if (LifePoint <= 0) LoseEvent();

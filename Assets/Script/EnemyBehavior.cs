@@ -58,7 +58,9 @@ public class EnemyBehavior : Entity
 
     public void FiringProjectile()
     {
-        
+        var Projectile = _gameManager.SpawnObject<Entity>(ProjectilePrefab, FirePoint.position);
+        _gameManager.AddEntity(Projectile);
+     
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
