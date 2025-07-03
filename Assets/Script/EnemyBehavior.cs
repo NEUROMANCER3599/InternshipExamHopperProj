@@ -5,30 +5,33 @@ using UnityEngine;
 public class EnemyBehavior : Entity
 {
     [Header("Parameters")]
-    public int LifePoint = 3;
-    public float AttackDistance = 4;
-    public float AttackSpeed = 1;
-    public GameObject ProjectilePrefab;
+    [SerializeField] private int LifePoint = 3;
+    [SerializeField] private float AttackDistance = 4;
+    [SerializeField] private float AttackSpeed = 1;
+    [SerializeField] private Entity ProjectilePrefab;
+    [SerializeField] private Transform FirePoint;
 
     [Header("Animation Parameters")]
     private Animator _animator;
-    public string HitAnimationTrigger = "OnHit";
-    public string DeathAnimationTrigger = "OnDeath";
-    public string AttackAnimationTrigger = "IsAttacking";
+    [SerializeField] private string HitAnimationTrigger = "OnHit";
+    [SerializeField] private string DeathAnimationTrigger = "OnDeath";
+    [SerializeField] private string AttackAnimationTrigger = "OnAttack";
 
     [Header("System")]
     [SerializeField] private PlayerBehavior _player;
     private bool IsDead;
     private bool IsAttacking;
+    private GameManager _gameManager;
     public override void InitializeData()
     {
         if(_animator == null)
        _animator = GetComponent<Animator>();
+       _gameManager = GameManager.instance;
     }
 
     public override void UpdateData()
     {
-        if (_player == null) _player = GameObject.FindAnyObjectByType<PlayerBehavior>();
+        if (_player == null) _player = _gameManager.GetPlayerRef();
         AttackCheck();
     }
 

@@ -151,6 +151,12 @@ public class GameManager : MonoBehaviour
         return SpawnedObj;
     }
 
+    public void AddEntity(Entity entity)
+    {
+        SpawnedObjects.Add(entity);
+        entity.InitializeData();
+    }
+
     public void OnWin()
     {
         
@@ -206,5 +212,10 @@ public class GameManager : MonoBehaviour
     public void Scoring(int score)
     {
         Score += score;
+    }
+
+    public PlayerBehavior GetPlayerRef()
+    {
+        return _player.GetComponent<PlayerBehavior>();
     }
 }
