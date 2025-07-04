@@ -59,7 +59,7 @@ public class PlayerBehavior : Entity
 
     private Vector3 GetJumpPosition()
     {
-        Vector3 JumpPosition = gameManager.SpawnedBlocks[StepNum+1].transform.position + new Vector3(0,JumpPositionOffset,0);
+        Vector3 JumpPosition = gameManager._BlockBuilder.SpawnedBlocks[StepNum+1].transform.position + new Vector3(0,JumpPositionOffset,0);
         return JumpPosition;
     }
 
@@ -67,7 +67,7 @@ public class PlayerBehavior : Entity
     {
         if (Input.GetKeyDown(JumpInput))
         {
-            if (StepNum + 1 >= gameManager.SpawnedBlocks.Count) return;
+            if (StepNum + 1 >= gameManager._BlockBuilder.SpawnedBlocks.Count) return;
 
             rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, false);
             _animator.SetTrigger("Jump");
