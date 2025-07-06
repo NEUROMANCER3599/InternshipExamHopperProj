@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c72862301f8ddc4eaef64f05a2dfb19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LifePoint: 3
+  LifePoint: 2
   AttackDistance: 3
   AttackSpeed: 4
   ProjectilePrefab: {fileID: 2137347318656068359, guid: 9bf9ebf2a4ba8e1498a36839e7d32a34, type: 3}

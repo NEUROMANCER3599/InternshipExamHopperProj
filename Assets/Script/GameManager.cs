@@ -157,4 +157,9 @@ public class GameManager : MonoBehaviour
     {
         return _player.GetComponent<PlayerBehavior>();
     }
+
+    public byte floatToByte(float f)
+    {
+        return (byte)(f * 255);
+    }
 }

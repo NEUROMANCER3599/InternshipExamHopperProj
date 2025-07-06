@@ -127,9 +127,10 @@ MonoBehaviour:
   _animator: {fileID: 0}
   JumpInput: 32
   AttackInput: 101
+  DefendInput: 102
   AttackPoint: {fileID: 1947769524964249036}
   AttackHitBoxRadius: 0.75
-  JumpPositionOffset: 0.375
+  JumpPositionOffset: 0.4
   JumpPower: 3.5
   JumpSpeed: 0.5
   GroundCheckBox: {x: 0.5, y: 0.5}

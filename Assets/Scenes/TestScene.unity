@@ -463,6 +463,7 @@ MonoBehaviour:
   BlockList:
   - {fileID: 2245297594938336629, guid: bda8663d68723e04f9fa299c16deadde, type: 3}
   - {fileID: 2245297594938336629, guid: e33462f254cca014ab3672d695224221, type: 3}
+  - {fileID: 2245297594938336629, guid: 08c09c78b5e40a74db0aae0c9a60740f, type: 3}
   StartingBlockPosition: {x: 0, y: -1.5, z: 0}
   StartingBlockPrefab: {fileID: -2421101259523926199, guid: 6ea922b65053a89498cd87a133d2ac5c, type: 3}
   GoalBlockPrefab: {fileID: -2628699131300429074, guid: b208519e37dd1a3438bb86c1b992ecac, type: 3}

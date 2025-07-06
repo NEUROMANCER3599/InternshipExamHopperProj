@@ -32,7 +32,7 @@ public class EntitySpawner : MonoBehaviour
 
         for (int i = 1; i < totalEntityCount; i++)
         {
-            var SpawnedEntity = _gameManager.SpawnObject<Entity>(EntityList[Random.Range(0, EntityList.Count)], _gameManager.PickingUniqueItem<Transform>(PossibleEntitySpawnPositions, 1, PossibleEntitySpawnPositions.Count - 1).position + new Vector3(0, EntitySpawnHeightOffset, 0));
+            var SpawnedEntity = _gameManager.SpawnObject<Entity>(EntityList[Random.Range(0, EntityList.Count)], _gameManager.PickingUniqueItem<Transform>(PossibleEntitySpawnPositions, 3, PossibleEntitySpawnPositions.Count - 1).position + new Vector3(0, EntitySpawnHeightOffset, 0));
             _gameManager.SpawnedObjects.Add(SpawnedEntity);
             SpawnedEntity.InitializeData();
         }
