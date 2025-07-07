@@ -1,17 +1,13 @@
+using DG.Tweening.Core.Easing;
 using UnityEngine;
-using DG.Tweening;
 
-[RequireComponent(typeof(Entity))]
-public class Coin : Entity
+public class Fruit : Entity
 {
-    public int ScorePoint = 1;
-    private Animator _animator;
+    public int HealthPoint = 1;
     private PlayerBehavior _player;
-    private GameManager gameManager;
     public override void InitializeData()
     {
-        _animator = GetComponent<Animator>();
-        gameManager = GameManager.instance;
+        
     }
 
     public override void UpdateData()
@@ -31,13 +27,7 @@ public class Coin : Entity
 
     void OnCollected()
     {
-        gameManager.Scoring(ScorePoint);
-        _animator.SetTrigger("OnCollected");
-    }
-
-    void RemoveObject()
-    {
+        _player.Healing(HealthPoint);
         Destroy(gameObject);
     }
-
 }

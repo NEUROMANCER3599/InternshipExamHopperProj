@@ -73,6 +73,7 @@ public class Block : Entity
     void OnBroken()
     {
         _spriteRenderer.enabled = false;
+        DOTween.Kill(gameObject);
     }
    
 }

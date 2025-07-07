@@ -22,10 +22,13 @@ public class EnemyBehavior : Entity
     private bool IsDead;
     private bool IsAttacking;
     private GameManager _gameManager;
+    private SpriteRenderer _spriteRenderer;
     public override void InitializeData()
     {
         if(_animator == null)
        _animator = GetComponent<Animator>();
+
+       _spriteRenderer = GetComponent<SpriteRenderer>();
        _gameManager = GameManager.instance;
     }
 
@@ -69,7 +72,7 @@ public class EnemyBehavior : Entity
         if(collision.gameObject == _player.gameObject)
         {
             if(IsDead) return;
-            _player.OnDamaged();
+            _player.OnDamaged(1);
             OnDeath();
         }
     }

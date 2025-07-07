@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,20 +153,20 @@ TextureImporter:
       name: fruit_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 48
-        width: 13
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3352af4d5b2a426b0800000000000000
-      internalID: -5321949957799140045
+      spriteID: 7183d5e435452f6449ba2078533d45d6
+      internalID: 1082812841
       vertices: []
       indices: 
       edges: []
@@ -175,20 +175,20 @@ TextureImporter:
       name: fruit_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 0
-        width: 11
-        height: 64
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2f8c6a635e4df1950800000000000000
-      internalID: 6422085674583116018
+      spriteID: 4215701928d0feb43aee9be1b160d175
+      internalID: -463922622
       vertices: []
       indices: 
       edges: []
@@ -197,20 +197,20 @@ TextureImporter:
       name: fruit_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 47
-        width: 13
-        height: 17
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 75aeee8f4f9735110800000000000000
-      internalID: 1248475614767147607
+      spriteID: db03dd3e216f0854fb512c46bf893c13
+      internalID: 928850187
       vertices: []
       indices: 
       edges: []
@@ -219,20 +219,20 @@ TextureImporter:
       name: fruit_3
       rect:
         serializedVersion: 2
-        x: 33
-        y: 31
-        width: 13
-        height: 17
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4e6791db992971e0800000000000000
-      internalID: -2199681193780744630
+      spriteID: d2fac3e852a67e64aa070a755969cca8
+      internalID: 858474187
       vertices: []
       indices: 
       edges: []
@@ -241,20 +241,20 @@ TextureImporter:
       name: fruit_4
       rect:
         serializedVersion: 2
-        x: 1
+        x: 16
         y: 32
-        width: 13
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2134e1c2cf6a1a00800000000000000
-      internalID: 728017172041052461
+      spriteID: 67d14082b539ea0488904f548e3122cf
+      internalID: 1295429437
       vertices: []
       indices: 
       edges: []
@@ -263,20 +263,20 @@ TextureImporter:
       name: fruit_5
       rect:
         serializedVersion: 2
-        x: 33
-        y: 15
-        width: 13
-        height: 17
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b04c577dd92eec50800000000000000
-      internalID: 6696335727113552053
+      spriteID: b0283aff78f39ba41bcf04036de3910c
+      internalID: -1231154477
       vertices: []
       indices: 
       edges: []
@@ -285,20 +285,20 @@ TextureImporter:
       name: fruit_6
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 16
-        width: 13
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48ea999c6baf0dc10800000000000000
-      internalID: 2076435091191082628
+      spriteID: 09770da3ee39e164ba5adefb026de5c3
+      internalID: -1866007543
       vertices: []
       indices: 
       edges: []
@@ -307,9 +307,9 @@ TextureImporter:
       name: fruit_7
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 13
+        x: 16
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 001a2078508044a30800000000000000
-      internalID: 4198489572449100032
+      spriteID: 6cb3343e057f99d46b8c48e6fa04f1f4
+      internalID: 867073823
       vertices: []
       indices: 
       edges: []
@@ -329,20 +329,86 @@ TextureImporter:
       name: fruit_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 13
-        height: 15
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb339487c0be1b030800000000000000
-      internalID: 3508844023488525244
+      spriteID: ef5148e0951241f4d9cde66b229e7604
+      internalID: -380623372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ef7bfcbd82fd9408b8c3a97079876e
+      internalID: 1601792065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cb3c3ef8996994f9234b0c26fb6071
+      internalID: 425447066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa3add3bfc7c374eb2f6c4a2f196f72
+      internalID: 469813121
       vertices: []
       indices: 
       edges: []
@@ -351,7 +417,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ab5462b4924f8ee428713163e83006e9
     internalID: 0
     vertices: []
     indices: 
@@ -360,7 +426,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fruit_0: 1082812841
+      fruit_1: -463922622
+      fruit_10: 425447066
+      fruit_11: 469813121
+      fruit_2: 928850187
+      fruit_3: 858474187
+      fruit_4: 1295429437
+      fruit_5: -1231154477
+      fruit_6: -1866007543
+      fruit_7: 867073823
+      fruit_8: -380623372
+      fruit_9: 1601792065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

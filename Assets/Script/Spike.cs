@@ -50,7 +50,7 @@ public class Spike : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (_player == null) return;
-        if (collision.gameObject == _player.gameObject) { _player.OnDamaged(); return; }
+        if (collision.gameObject == _player.gameObject) { _player.OnDamaged(1); return; }
     }
 
 }

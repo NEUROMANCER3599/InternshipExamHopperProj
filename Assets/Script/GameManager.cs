@@ -11,9 +11,11 @@ public class GameManager : MonoBehaviour
 
     [Header("Gameplay Manager")]
     [SerializeField] private int Score;
+    public int TimeWon = 0;
 
     [Header("Prefab Components")]
     [SerializeField] private Entity PlayerPrefab;
+
 
     [Header("System")]
     [SerializeField] private Entity _player;
@@ -22,6 +24,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private KeyCode RestartKey = KeyCode.R;
     public BlockBuilder _BlockBuilder;
     public EntitySpawner _EntitySpawner;
+    [SerializeField] private ConfinerBehavior CamConfiner;
+    [SerializeField] private AcidBehavior AcidFloor;
     bool IsLose;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -44,6 +48,12 @@ public class GameManager : MonoBehaviour
 
         if(_EntitySpawner != null) return;
         _EntitySpawner = GetComponent<EntitySpawner>();
+
+        if(CamConfiner != null) return;
+        CamConfiner = FindAnyObjectByType<ConfinerBehavior>();
+
+        if(AcidFloor != null) return;
+        AcidFloor = FindAnyObjectByType<AcidBehavior>();
     }
 
     private void Start()
@@ -55,10 +65,13 @@ public class GameManager : MonoBehaviour
 
     void InitializeLevel() //Do not change this sequence
     {
+        AcidFloor.Initialize();
 
         _BlockBuilder.BuildingBlocks(); //This must be first
 
         SpawningPlayer();
+
+        CamConfiner.InitializeData();
 
         _EntitySpawner.SpawningEntity();
 
@@ -66,7 +79,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        
+        if(_player != null) { CamConfiner.FollowingPlayer();}
+
+        AcidFloor.UpdateData();
+
         if (Input.GetKeyDown(RestartKey))
         {
             if (!IsLose) return;
@@ -98,7 +114,7 @@ public class GameManager : MonoBehaviour
 
     public void OnWin()
     {
-        
+        TimeWon++;
         ClearSpawnedObj();
         InitializeLevel();
     }
@@ -110,6 +126,7 @@ public class GameManager : MonoBehaviour
 
     public void OnRestart()
     {
+        TimeWon = 0;
         ClearSpawnedObj();
         InitializeLevel();
     }
@@ -162,4 +179,5 @@ public class GameManager : MonoBehaviour
     {
         return (byte)(f * 255);
     }
+
 }

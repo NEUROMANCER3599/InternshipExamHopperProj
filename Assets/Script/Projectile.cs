@@ -34,7 +34,7 @@ public class Projectile : Entity
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(_player == null) return;
-        if (collision.gameObject == _player.gameObject) { _player.OnDamaged(); OnHit(); return; }
+        if (collision.gameObject == _player.gameObject) { _player.OnDamaged(1); OnHit(); return; }
     }
 
     public void OnHit()

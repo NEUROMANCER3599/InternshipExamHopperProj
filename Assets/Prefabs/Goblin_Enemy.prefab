@@ -165,7 +165,7 @@ Rigidbody2D:
   m_Interpolate: 2
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!114 &6401701953907888561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c72862301f8ddc4eaef64f05a2dfb19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LifePoint: 3
+  LifePoint: 2
   AttackDistance: 2
   AttackSpeed: 3
   ProjectilePrefab: {fileID: 2137347318656068359, guid: fef05299fc8bd8d428b811a718758e39, type: 3}

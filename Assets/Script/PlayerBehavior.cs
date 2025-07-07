@@ -121,11 +121,11 @@ public class PlayerBehavior : Entity
         }
     }
 
-    public void OnDamaged()
+    public void OnDamaged(int DMG)
     {
         if(!IsActive) return;
         if(IsDefending) return;
-        LifePoint--;
+        LifePoint-= DMG;
         _animator.SetTrigger("OnHurt");
         if (LifePoint <= 0) LoseEvent();
     }
@@ -153,6 +153,12 @@ public class PlayerBehavior : Entity
     public void endAttack()
     {
         IsAttacking = false;
+    }
+
+    public void Healing(int amount)
+    {
+        if (LifePoint == 3) return;
+        LifePoint += amount;
     }
 
     private void OnDrawGizmos()
