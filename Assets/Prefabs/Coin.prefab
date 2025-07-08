@@ -130,7 +130,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6666667, y: 0.6666667}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -199,7 +199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a4b336cc054c1743afabc667c23ef18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
   ScorePoint: 3
+  CollectSound: {fileID: 8300000, guid: 915f4022a14d4554385a7d39f27e4a09, type: 3}
 --- !u!114 &3371292934925090094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,3 +214,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}

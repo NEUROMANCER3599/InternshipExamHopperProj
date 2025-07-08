@@ -34,7 +34,7 @@ public class EntitySpawner : MonoBehaviour
         {
             var SpawnedEntity = _gameManager.SpawnObject<Entity>(EntityList[Random.Range(0, EntityList.Count)], _gameManager.PickingUniqueItem<Transform>(PossibleEntitySpawnPositions, 3, PossibleEntitySpawnPositions.Count - 1).position + new Vector3(0, EntitySpawnHeightOffset, 0));
             _gameManager.SpawnedObjects.Add(SpawnedEntity);
-            SpawnedEntity.InitializeData();
+            SpawnedEntity.InitializeData(_gameManager);
         }
     }
 }

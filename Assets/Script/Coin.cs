@@ -5,13 +5,16 @@ using DG.Tweening;
 public class Coin : Entity
 {
     public int ScorePoint = 1;
+    public AudioClip CollectSound;
     private Animator _animator;
     private PlayerBehavior _player;
-    private GameManager gameManager;
-    public override void InitializeData()
+
+    public override void InitializeData(GameManager GM)
     {
+        base.InitializeData(GM);
+
         _animator = GetComponent<Animator>();
-        gameManager = GameManager.instance;
+
     }
 
     public override void UpdateData()
@@ -31,7 +34,8 @@ public class Coin : Entity
 
     void OnCollected()
     {
-        gameManager.Scoring(ScorePoint);
+        SoundFXManager.instance.PlaySoundFXClip(CollectSound, gameObject.transform);
+        _gameManager.Scoring(ScorePoint);
         _animator.SetTrigger("OnCollected");
     }
 

@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c72862301f8ddc4eaef64f05a2dfb19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
   LifePoint: 2
   AttackDistance: 2
   AttackSpeed: 3
@@ -186,6 +187,9 @@ MonoBehaviour:
   HitAnimationTrigger: OnHit
   DeathAnimationTrigger: OnDeath
   AttackAnimationTrigger: OnAttack
+  AttackSound: {fileID: 8300000, guid: c82164f6b92deff42a00f38b338f2ea1, type: 3}
+  HitSound: {fileID: 8300000, guid: 6a3ff03506adac8439d9f6be10177d0c, type: 3}
+  DeathSound: {fileID: 8300000, guid: ac6194b0c18001a40aecf2ee4a50e9d3, type: 3}
   _player: {fileID: 0}
 --- !u!114 &6182986784111190904
 MonoBehaviour:
@@ -199,6 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
 --- !u!95 &2078570503111027488
 Animator:
   serializedVersion: 7

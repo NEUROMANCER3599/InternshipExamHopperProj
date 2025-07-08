@@ -199,6 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
 --- !u!114 &779580798162357126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,8 +212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f887765fc2dfcf4381738783ae551c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
   ProjectileSpeed: 1
   DespawnTime: 3
+  DespawnSound: {fileID: 8300000, guid: 08d623aa6ba18604494a5c33bd3f0d25, type: 3}
   _player: {fileID: 0}
   _animator: {fileID: 0}
   rb: {fileID: 0}

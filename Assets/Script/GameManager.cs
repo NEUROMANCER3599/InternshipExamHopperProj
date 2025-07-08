@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     [Header("System")]
     [SerializeField] private Entity _player;
     [SerializeField] private CinemachineCamera _VirtualCam;
-    public List<Entity> SpawnedObjects;
+    public List<Entity> SpawnedObjects = new List<Entity>();
     [SerializeField] private KeyCode RestartKey = KeyCode.R;
     public BlockBuilder _BlockBuilder;
     public EntitySpawner _EntitySpawner;
@@ -79,6 +79,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+
         if(_player != null) { CamConfiner.FollowingPlayer();}
 
         AcidFloor.UpdateData();
@@ -88,8 +89,6 @@ public class GameManager : MonoBehaviour
             if (!IsLose) return;
             OnRestart();
         }
-
-        if (SpawnedObjects == null) return;
 
         foreach(var Entity in SpawnedObjects)
         {
@@ -109,7 +108,7 @@ public class GameManager : MonoBehaviour
     public void AddEntity(Entity entity)
     {
         SpawnedObjects.Add(entity);
-        entity.InitializeData();
+        entity.InitializeData(this);
     }
 
     public void OnWin()
@@ -136,7 +135,7 @@ public class GameManager : MonoBehaviour
         if (PlayerPrefab == null) return;
         _player = SpawnObject<Entity>(PlayerPrefab, Vector3.zero);
         SpawnedObjects.Add(_player);
-        _player.InitializeData();
+        _player.InitializeData(this);
         _VirtualCam.Follow = _player.gameObject.transform;
     }
 
@@ -172,7 +171,7 @@ public class GameManager : MonoBehaviour
 
     public PlayerBehavior GetPlayerRef()
     {
-        return _player.GetComponent<PlayerBehavior>();
+        return _player as PlayerBehavior;
     }
 
     public byte floatToByte(float f)

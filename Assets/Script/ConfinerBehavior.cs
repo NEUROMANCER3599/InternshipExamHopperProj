@@ -13,6 +13,8 @@ public class ConfinerBehavior : MonoBehaviour
         if (_player == null) _player = FindAnyObjectByType<PlayerBehavior>();
         if (_player == null) return;
 
-        transform.DOMoveX(_player.transform.position.x, 0.5f, false);
+        //transform.DOMoveX(_player.transform.position.x, 0.5f, false);
+
+        transform.position = new Vector3(_player.transform.position.x, 0, 0);
     }
 }

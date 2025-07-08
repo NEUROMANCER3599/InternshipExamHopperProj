@@ -7,6 +7,8 @@ public class Spike : MonoBehaviour
     public float MaxSpikeActivateInterval = 8f;
     float SpikeActivateInterval;
     [SerializeField] private PlayerBehavior _player;
+    public AudioClip ActivateSfx;
+    public AudioClip DeactivateSfx;
     private BoxCollider2D Col;
     private Animator _animator;
     bool IsActivated;
@@ -33,18 +35,22 @@ public class Spike : MonoBehaviour
     {
         IsActivated = true;
         _animator.SetTrigger("OnActivate");
+        SoundFXManager.instance.PlaySoundFXClip(ActivateSfx, gameObject.transform);
         yield return new WaitForSeconds(SpikeActivateInterval = Random.Range(MinSpikeActivateInterval,MaxSpikeActivateInterval));
         IsActivated = false;
+        SoundFXManager.instance.PlaySoundFXClip(DeactivateSfx, gameObject.transform);
     }
 
     public void SpikeActivated()
     {
         Col.enabled = true;
+        
     }
 
     public void SpikeDeactivate()
     {
         Col.enabled = false;
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

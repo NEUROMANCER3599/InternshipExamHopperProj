@@ -17,14 +17,21 @@ public class EnemyBehavior : Entity
     [SerializeField] private string DeathAnimationTrigger = "OnDeath";
     [SerializeField] private string AttackAnimationTrigger = "OnAttack";
 
+    [Header("Sounds")]
+    [SerializeField] private AudioClip AttackSound;
+    [SerializeField] private AudioClip HitSound;
+    [SerializeField] private AudioClip DeathSound;
+
     [Header("System")]
     [SerializeField] private PlayerBehavior _player;
     private bool IsDead;
     private bool IsAttacking;
-    private GameManager _gameManager;
     private SpriteRenderer _spriteRenderer;
-    public override void InitializeData()
+    public override void InitializeData(GameManager GM)
     {
+
+        base.InitializeData(GM);
+
         if(_animator == null)
        _animator = GetComponent<Animator>();
 
@@ -61,9 +68,10 @@ public class EnemyBehavior : Entity
 
     public void FiringProjectile()
     {
-        var Projectile = _gameManager.SpawnObject<Entity>(ProjectilePrefab, FirePoint.position);
-        _gameManager.AddEntity(Projectile);
-     
+        SoundFXManager.instance.PlaySoundFXClip(AttackSound, gameObject.transform);
+        var Proj = _gameManager.SpawnObject<Entity>(ProjectilePrefab, FirePoint.position);
+        Proj.InitializeData(_gameManager);
+        _gameManager.AddEntity(Proj);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -82,12 +90,14 @@ public class EnemyBehavior : Entity
         if(IsDead) return;
         LifePoint--;
         _animator.SetTrigger(HitAnimationTrigger);
-        if(LifePoint <= 0) OnDeath();
+        SoundFXManager.instance.PlaySoundFXClip(HitSound, gameObject.transform);
+        if (LifePoint <= 0) OnDeath();
     }
 
     void OnDeath()
     {
         IsDead = true;
+        SoundFXManager.instance.PlaySoundFXClip(DeathSound, gameObject.transform);
         StopAllCoroutines();
         _animator.SetTrigger(DeathAnimationTrigger);
     }

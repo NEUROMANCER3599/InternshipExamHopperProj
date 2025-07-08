@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -8607464923050721963}
   - component: {fileID: 7625873918075203532}
   - component: {fileID: 2136506320183980706}
+  - component: {fileID: 5303429335049426319}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -123,6 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e65737e08036e1c44be001ff865cfb91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
   LifePoint: 3
   _animator: {fileID: 0}
   JumpInput: 32
@@ -141,6 +143,12 @@ MonoBehaviour:
   EnemyLayer:
     serializedVersion: 2
     m_Bits: 128
+  HitSound: {fileID: 8300000, guid: 3a4422d3e9f38fa40a7ac8f04ce1cda6, type: 3}
+  DefendSound: {fileID: 8300000, guid: 411db4b4e7bd2c64b873cc9ee4f4b302, type: 3}
+  DefendHitSound: {fileID: 8300000, guid: 249c39fcdf982164a8d4d943b207b718, type: 3}
+  AttackSound: {fileID: 8300000, guid: 546590f94d234fa47964fccf806e7d99, type: 3}
+  JumpSound: {fileID: 8300000, guid: b71478f3781d4ac4c9e7c969b056dacf, type: 3}
+  DeathSound: {fileID: 8300000, guid: a23986e1e71b4854e92a4939c401d462, type: 3}
   StepNum: 0
 --- !u!114 &-8607464923050721963
 MonoBehaviour:
@@ -154,6 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
 --- !u!212 &7625873918075203532
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -231,6 +240,14 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!81 &5303429335049426319
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127635754939293493}
+  m_Enabled: 1
 --- !u!1 &8053369617112195261
 GameObject:
   m_ObjectHideFlags: 0

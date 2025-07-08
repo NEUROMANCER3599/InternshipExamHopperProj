@@ -175,4 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67e267f63c9462149ab4cd8e89a1947f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
   HealthPoint: 1
+  CollectSound: {fileID: 8300000, guid: 2b5a53a5dc37fe3488360624c4cdb2d9, type: 3}

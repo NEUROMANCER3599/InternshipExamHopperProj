@@ -149,6 +149,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b31f2c8b127034ea20f2fb89fa465f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
+  IsFallingEnabled: 0
+  MinTimeBeforeFalling: 5
+  MaxTimeBeforeFalling: 10
+  LandingSound: {fileID: 8300000, guid: 11010e6e85ba83d4bbc73d4a87e3ca86, type: 3}
+  WarningSound: {fileID: 0}
+  BreakSound: {fileID: 0}
 --- !u!114 &-3265089574421878206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,6 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
 --- !u!50 &2562336785697508783
 Rigidbody2D:
   serializedVersion: 5

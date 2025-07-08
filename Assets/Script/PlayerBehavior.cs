@@ -4,6 +4,7 @@ using DG.Tweening;
 [RequireComponent(typeof(Entity))]
 public class PlayerBehavior : Entity
 {
+
     [Header("Gameplay Data")]
     [SerializeField] private int LifePoint = 3;
 
@@ -24,21 +25,28 @@ public class PlayerBehavior : Entity
     public LayerMask GroundLayer;
     public LayerMask EnemyLayer;
 
+    [Header("Sounds")]
+    [SerializeField] private AudioClip HitSound;
+    [SerializeField] private AudioClip DefendSound;
+    [SerializeField] private AudioClip DefendHitSound;
+    [SerializeField] private AudioClip AttackSound;
+    [SerializeField] private AudioClip JumpSound;
+    [SerializeField] private AudioClip DeathSound;
+
     [Header("System")]
     [SerializeField] private int StepNum = 0;
     private bool IsActive = true;
     private bool IsAttacking;
     private bool IsDefending;
     private Rigidbody2D rb;
-    private GameManager gameManager;
     private BoxCollider2D col;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public override void InitializeData()
+    public override void InitializeData(GameManager GM)
     {
+        base.InitializeData(GM);
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
         _animator = GetComponent<Animator>();
-        gameManager = GameManager.instance;
     }
 
     public override void UpdateData()
@@ -59,7 +67,7 @@ public class PlayerBehavior : Entity
 
     private Vector3 GetJumpPosition()
     {
-        Vector3 JumpPosition = gameManager._BlockBuilder.SpawnedBlocks[StepNum+1].transform.position + new Vector3(0,JumpPositionOffset,0);
+        Vector3 JumpPosition = _gameManager._BlockBuilder.SpawnedBlocks[StepNum+1].transform.position + new Vector3(0,JumpPositionOffset,0);
         return JumpPosition;
     }
 
@@ -67,8 +75,8 @@ public class PlayerBehavior : Entity
     {
         if (Input.GetKeyDown(JumpInput))
         {
-            if (StepNum + 1 >= gameManager._BlockBuilder.SpawnedBlocks.Count) return;
-
+            if (StepNum + 1 >= _gameManager._BlockBuilder.SpawnedBlocks.Count) return;
+            SoundFXManager.instance.PlaySoundFXClip(JumpSound, gameObject.transform);
             rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, false);
             _animator.SetTrigger("Jump");
             StepNum++;
@@ -80,6 +88,7 @@ public class PlayerBehavior : Entity
         if (Input.GetKeyDown(AttackInput))
         {
             IsAttacking = true;
+            SoundFXManager.instance.PlaySoundFXClip(AttackSound, gameObject.transform);
             int RandomAnimIndex = Random.Range(0, 3);
             _animator.SetInteger("AttackAnimIndex", RandomAnimIndex);
             _animator.SetTrigger("OnAttack");
@@ -91,6 +100,7 @@ public class PlayerBehavior : Entity
         if (Input.GetKeyDown(DefendInput))
         {
             IsDefending = true;
+            SoundFXManager.instance.PlaySoundFXClip(DefendSound, gameObject.transform);
         }
         if (Input.GetKeyUp(DefendInput))
         {
@@ -117,25 +127,32 @@ public class PlayerBehavior : Entity
     {
         if(collision.gameObject.tag == "Finish")
         {
-            gameManager.OnWin();
+            _gameManager.OnWin();
         }
     }
 
     public void OnDamaged(int DMG)
     {
-        if(!IsActive) return;
-        if(IsDefending) return;
+        if(!IsActive) 
+            return;
+        if(IsDefending) SoundFXManager.instance.PlaySoundFXClip(DefendHitSound, gameObject.transform);
+
+        if (IsDefending) return;
         LifePoint-= DMG;
         _animator.SetTrigger("OnHurt");
-        if (LifePoint <= 0) LoseEvent();
+        SoundFXManager.instance.PlaySoundFXClip(HitSound, gameObject.transform);
+
+        if (LifePoint <= 0) 
+            LoseEvent();
     }
 
     private void LoseEvent()
     {
         
         IsActive = false;
+        SoundFXManager.instance.PlaySoundFXClip(DeathSound, gameObject.transform);
         _animator.SetTrigger("OnDeath");
-        gameManager.OnLose();
+        _gameManager.OnLose();
     }
 
     public void AttackHit()
@@ -171,4 +188,5 @@ public class PlayerBehavior : Entity
     {
         DOTween.KillAll(true);
     }
+
 }

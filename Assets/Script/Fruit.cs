@@ -4,10 +4,11 @@ using UnityEngine;
 public class Fruit : Entity
 {
     public int HealthPoint = 1;
+    public AudioClip CollectSound;
     private PlayerBehavior _player;
-    public override void InitializeData()
+    public override void InitializeData(GameManager GM)
     {
-        
+        base.InitializeData(GM);
     }
 
     public override void UpdateData()
@@ -27,6 +28,7 @@ public class Fruit : Entity
 
     void OnCollected()
     {
+        SoundFXManager.instance.PlaySoundFXClip(CollectSound, gameObject.transform);
         _player.Healing(HealthPoint);
         Destroy(gameObject);
     }

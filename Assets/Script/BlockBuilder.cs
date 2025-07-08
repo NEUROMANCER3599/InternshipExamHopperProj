@@ -45,7 +45,7 @@ public class BlockBuilder : MonoBehaviour
         foreach (var blocks in SpawnedBlocks)
         {
             _manager.SpawnedObjects.Add(blocks);
-            blocks.InitializeData();
+            blocks.InitializeData(_manager);
         }
 
     }
