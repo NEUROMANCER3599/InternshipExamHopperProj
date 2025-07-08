@@ -41,7 +41,7 @@ public class Block : Entity
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (_player == null) return;
-        SoundFXManager.instance.PlaySoundFXClip(LandingSound, gameObject.transform);
+        if (collision.gameObject == _player.gameObject) { SoundFXManager.instance.PlaySoundFXClip(LandingSound, gameObject.transform); }
         if (!IsFallingEnabled) return;
         if (IsTouched) return;
         if (collision.gameObject == _player.gameObject) { StartCoroutine(fallingblockseq()); }
