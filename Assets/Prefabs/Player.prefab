@@ -143,6 +143,7 @@ MonoBehaviour:
   EnemyLayer:
     serializedVersion: 2
     m_Bits: 128
+  HitParticle: {fileID: 6630862038573697590, guid: a0586ed4ff2b4034aa69d7e5d4142040, type: 3}
   HitSound: {fileID: 8300000, guid: 3a4422d3e9f38fa40a7ac8f04ce1cda6, type: 3}
   DefendSound: {fileID: 8300000, guid: 411db4b4e7bd2c64b873cc9ee4f4b302, type: 3}
   DefendHitSound: {fileID: 8300000, guid: 249c39fcdf982164a8d4d943b207b718, type: 3}

@@ -24,6 +24,7 @@ public class PlayerBehavior : Entity
     public float GroundCheckDistance;
     public LayerMask GroundLayer;
     public LayerMask EnemyLayer;
+    public Entity HitParticle;
 
     [Header("Sounds")]
     [SerializeField] private AudioClip HitSound;
@@ -158,6 +159,7 @@ public class PlayerBehavior : Entity
             if (!collidedEnemy.gameObject.GetComponent<EnemyBehavior>()) return;
             EnemyBehavior EnemyInstance = collidedEnemy.gameObject.GetComponent<EnemyBehavior>();
             EnemyInstance.OnDamaged();
+            _gameManager.SpawnObject<Entity>(HitParticle, collidedEnemy.transform.position);
         }
     }
 
