@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     public EntitySpawner _EntitySpawner;
     [SerializeField] private ConfinerBehavior CamConfiner;
     [SerializeField] private AcidBehavior AcidFloor;
+    private CoreInputControl _CoreInputControl;
     bool IsLose;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -54,6 +55,9 @@ public class GameManager : MonoBehaviour
 
         if(AcidFloor != null) return;
         AcidFloor = FindAnyObjectByType<AcidBehavior>();
+
+        if(_CoreInputControl != null) return;
+        _CoreInputControl = GetComponent<CoreInputControl>();
     }
 
     private void Start()
@@ -73,6 +77,8 @@ public class GameManager : MonoBehaviour
 
         CamConfiner.InitializeData();
 
+        _CoreInputControl.InitializeData(this);
+
         _EntitySpawner.SpawningEntity();
 
     }
@@ -83,6 +89,7 @@ public class GameManager : MonoBehaviour
         if(_player != null) { CamConfiner.FollowingPlayer();}
 
         AcidFloor.UpdateData();
+        _CoreInputControl.UpdateData();
 
         if (Input.GetKeyDown(RestartKey))
         {
@@ -125,6 +132,7 @@ public class GameManager : MonoBehaviour
 
     public void OnRestart()
     {
+        IsLose = false;
         TimeWon = 0;
         ClearSpawnedObj();
         InitializeLevel();
@@ -177,6 +185,11 @@ public class GameManager : MonoBehaviour
     public byte floatToByte(float f)
     {
         return (byte)(f * 255);
+    }
+
+    public bool LoseCheck()
+    {
+        return IsLose;
     }
 
 }

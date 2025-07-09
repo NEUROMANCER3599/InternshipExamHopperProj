@@ -56,12 +56,15 @@ public class PlayerBehavior : Entity
             if (!IsActive) return;
             if(IsAttacking) return;
 
-            Defend();
+            if(Input.GetKeyDown(DefendInput)) Defend(true);
+
+            if(Input.GetKeyUp(DefendInput)) Defend(false);
 
             if (IsDefending) return;
 
-            Jump();
-            StartAttack();
+            if(Input.GetKeyDown(JumpInput)) Jump();
+
+            if(Input.GetKeyDown(AttackInput)) StartAttack();
       
     }
 
@@ -71,41 +74,32 @@ public class PlayerBehavior : Entity
         return JumpPosition;
     }
 
-    private void Jump()
+    public void Jump()
     {
-        if (Input.GetKeyDown(JumpInput))
-        {
+        
             if (StepNum + 1 >= _gameManager._BlockBuilder.SpawnedBlocks.Count) return;
             SoundFXManager.instance.PlaySoundFXClip(JumpSound, gameObject.transform);
             rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, false);
             _animator.SetTrigger("Jump");
             StepNum++;
-        }
+        
     }
 
-    private void StartAttack()
+    public void StartAttack()
     {
-        if (Input.GetKeyDown(AttackInput))
-        {
+            if (IsAttacking) return;
             IsAttacking = true;
             SoundFXManager.instance.PlaySoundFXClip(AttackSound, gameObject.transform);
             int RandomAnimIndex = Random.Range(0, 3);
             _animator.SetInteger("AttackAnimIndex", RandomAnimIndex);
             _animator.SetTrigger("OnAttack");
-        }
     }
 
-    private void Defend()
+    public void Defend(bool check)
     {
-        if (Input.GetKeyDown(DefendInput))
-        {
-            IsDefending = true;
-            SoundFXManager.instance.PlaySoundFXClip(DefendSound, gameObject.transform);
-        }
-        if (Input.GetKeyUp(DefendInput))
-        {
-            IsDefending = false;
-        }
+        IsDefending = check;
+
+        if(IsDefending) SoundFXManager.instance.PlaySoundFXClip(DefendSound, gameObject.transform);
 
         _animator.SetBool("IsDefending",IsDefending);
     }
@@ -155,7 +149,7 @@ public class PlayerBehavior : Entity
         _gameManager.OnLose();
     }
 
-    public void AttackHit()
+    private void AttackHit()
     {
         Collider2D[] enemy = Physics2D.OverlapCircleAll(AttackPoint.position,AttackHitBoxRadius,EnemyLayer);
 
@@ -167,7 +161,7 @@ public class PlayerBehavior : Entity
         }
     }
 
-    public void endAttack()
+    private void endAttack()
     {
         IsAttacking = false;
     }
