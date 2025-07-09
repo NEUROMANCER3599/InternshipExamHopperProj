@@ -6,7 +6,7 @@ public class PlayerBehavior : Entity
 {
 
     [Header("Gameplay Data")]
-    [SerializeField] private int LifePoint = 3;
+    public int LifePoint = 4;
 
     [Header("Animation Components")]
     [SerializeField] private Animator _animator;
@@ -168,7 +168,7 @@ public class PlayerBehavior : Entity
 
     public void Healing(int amount)
     {
-        if (LifePoint == 3) return;
+        if (LifePoint == 4) return;
         LifePoint += amount;
     }
 

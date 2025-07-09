@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private ConfinerBehavior CamConfiner;
     [SerializeField] private AcidBehavior AcidFloor;
     private CoreInputControl _CoreInputControl;
+    private UIManager _UIManager;
     bool IsLose;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -58,6 +59,9 @@ public class GameManager : MonoBehaviour
 
         if(_CoreInputControl != null) return;
         _CoreInputControl = GetComponent<CoreInputControl>();
+
+        if(_UIManager != null) return;
+        _UIManager = GetComponent<UIManager>();
     }
 
     private void Start()
@@ -77,6 +81,8 @@ public class GameManager : MonoBehaviour
 
         CamConfiner.InitializeData();
 
+        _UIManager.InitializeData(this);
+
         _CoreInputControl.InitializeData(this);
 
         _EntitySpawner.SpawningEntity();
@@ -90,6 +96,7 @@ public class GameManager : MonoBehaviour
 
         AcidFloor.UpdateData();
         _CoreInputControl.UpdateData();
+        _UIManager.UpdateData();
 
         if (Input.GetKeyDown(RestartKey))
         {

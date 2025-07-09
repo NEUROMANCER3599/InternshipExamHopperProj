@@ -40,7 +40,7 @@ public class AcidBehavior : MonoBehaviour
         if(_player == null) return;
         if(collision.gameObject == _player.gameObject)
         {
-            _player.OnDamaged(3);
+            _player.OnDamaged(4);
         }
     }
 }

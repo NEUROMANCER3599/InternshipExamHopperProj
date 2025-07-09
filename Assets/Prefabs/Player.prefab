@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameManager: {fileID: 0}
-  LifePoint: 3
+  LifePoint: 4
   _animator: {fileID: 0}
   JumpInput: 32
   AttackInput: 101
