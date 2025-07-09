@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameManager: {fileID: 0}
-  ScorePoint: 3
+  ScorePoint: 100
   CollectSound: {fileID: 8300000, guid: 915f4022a14d4554385a7d39f27e4a09, type: 3}
 --- !u!114 &3371292934925090094
 MonoBehaviour:

@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameManager: {fileID: 0}
+  Score: 250
   LifePoint: 1
   AttackDistance: 3
   AttackSpeed: 3

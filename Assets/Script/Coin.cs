@@ -4,7 +4,7 @@ using DG.Tweening;
 [RequireComponent(typeof(Entity))]
 public class Coin : Entity
 {
-    public int ScorePoint = 1;
+    public int ScorePoint = 100;
     public AudioClip CollectSound;
     private Animator _animator;
     private PlayerBehavior _player;

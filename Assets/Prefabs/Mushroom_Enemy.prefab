@@ -179,7 +179,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameManager: {fileID: 0}
-  LifePoint: 2
+  Score: 1000
+  LifePoint: 3
   AttackDistance: 3
   AttackSpeed: 4
   ProjectilePrefab: {fileID: 2137347318656068359, guid: 9bf9ebf2a4ba8e1498a36839e7d32a34, type: 3}

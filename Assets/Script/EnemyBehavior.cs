@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyBehavior : Entity
 {
     [Header("Parameters")]
+    [SerializeField] private int Score = 500;
     [SerializeField] private int LifePoint = 3;
     [SerializeField] private float AttackDistance = 4;
     [SerializeField] private float AttackSpeed = 1;
@@ -97,6 +98,7 @@ public class EnemyBehavior : Entity
     void OnDeath()
     {
         IsDead = true;
+        _gameManager.Scoring(Score);
         SoundFXManager.instance.PlaySoundFXClip(DeathSound, gameObject.transform);
         StopAllCoroutines();
         _animator.SetTrigger(DeathAnimationTrigger);

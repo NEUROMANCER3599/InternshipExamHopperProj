@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance { get; private set; }
 
     [Header("Gameplay Manager")]
-    [SerializeField] private int Score;
+    [SerializeField] public int Score;
     public int TimeWon = 0;
 
     [Header("Prefab Components")]
@@ -141,6 +141,7 @@ public class GameManager : MonoBehaviour
     {
         IsLose = false;
         TimeWon = 0;
+        Score = 0;
         ClearSpawnedObj();
         InitializeLevel();
     }
