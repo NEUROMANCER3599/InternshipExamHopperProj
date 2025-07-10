@@ -13,10 +13,7 @@ public class AcidBehavior : MonoBehaviour
     [SerializeField] private GameManager _gameManager;
     [SerializeField] private PlayerBehavior _player;
 
-    private void Awake()
-    {
-        
-    }
+ 
     public void Initialize()
     {
         if(_gameManager == null) _gameManager = GameManager.instance;
@@ -27,7 +24,7 @@ public class AcidBehavior : MonoBehaviour
 
     public void UpdateData()
     {
-        if(_player == null) _player = FindAnyObjectByType<PlayerBehavior>();
+        if(_gameManager._GameState == GameState.RUNNING) _player = FindAnyObjectByType<PlayerBehavior>();
 
         if(transform.position.y < AcidEndingPosition.y)
         {
@@ -37,7 +34,7 @@ public class AcidBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(_player == null) return;
+        if(_gameManager._GameState != GameState.RUNNING) return;
         if(collision.gameObject == _player.gameObject)
         {
             _player.OnDamaged(4);

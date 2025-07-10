@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class AnimCleanup : MonoBehaviour
+public class AnimCleanup : Entity
 {
-    void Cleanup()
+   void AutoCleanup()
     {
         Destroy(gameObject);
     }

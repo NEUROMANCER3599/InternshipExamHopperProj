@@ -24,7 +24,9 @@ public class Block : Entity
     public override void InitializeData(GameManager GM)
     {
         base.InitializeData(GM);
-        _spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if(_spriteRenderer == null)
+            _spriteRenderer = GetComponent<SpriteRenderer>();
         _col = GetComponent<Collider2D>();
         if (!IsFallingEnabled) return;
         _animator = GetComponent<Animator>();
@@ -34,17 +36,21 @@ public class Block : Entity
    
     public override void UpdateData()
     {
-        if (_player == null) _player = _gameManager.GetPlayerRef();
-
+        if (_gameManager._GameState == GameState.RUNNING) _player = _gameManager.GetPlayerRef();
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (_player == null) return;
-        if (collision.gameObject == _player.gameObject) { SoundFXManager.instance.PlaySoundFXClip(LandingSound, gameObject.transform); }
-        if (!IsFallingEnabled) return;
-        if (IsTouched) return;
-        if (collision.gameObject == _player.gameObject) { StartCoroutine(fallingblockseq()); }
+        
+        if (collision.gameObject == _player.gameObject)
+        { SoundFXManager.instance.PlaySoundFXClip(LandingSound, gameObject.transform); }
+        if (!IsFallingEnabled)
+            return;
+        if (IsTouched)
+            return;
+        if (collision.gameObject == _player.gameObject) 
+           {StartCoroutine(fallingblockseq()); }
        
     }
 

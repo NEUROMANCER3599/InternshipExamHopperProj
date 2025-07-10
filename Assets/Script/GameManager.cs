@@ -2,7 +2,12 @@ using UnityEngine;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 
-
+public enum GameState
+{
+    NONE,
+    RUNNING,
+    COMPLETED
+}
 
 
 public class GameManager : MonoBehaviour
@@ -18,6 +23,7 @@ public class GameManager : MonoBehaviour
 
 
     [Header("System")]
+    public GameState _GameState = GameState.NONE;
     [SerializeField] private Entity _player;
     [SerializeField] private CinemachineCamera _VirtualCam;
     public List<Entity> SpawnedObjects = new List<Entity>();
@@ -87,12 +93,17 @@ public class GameManager : MonoBehaviour
 
         _EntitySpawner.SpawningEntity();
 
+        _GameState = GameState.RUNNING;
     }
+
+    
 
     void Update()
     {
 
-        if(_player != null) { CamConfiner.FollowingPlayer();}
+        
+
+        if(_GameState == GameState.RUNNING) { CamConfiner.FollowingPlayer();}
 
         AcidFloor.UpdateData();
         _CoreInputControl.UpdateData();
@@ -157,7 +168,8 @@ public class GameManager : MonoBehaviour
 
     private void ClearSpawnedObj()
     {
-        foreach(var obj in SpawnedObjects)
+        _GameState = GameState.COMPLETED;
+        foreach (var obj in SpawnedObjects)
         {
             Destroy(obj.gameObject);
         }

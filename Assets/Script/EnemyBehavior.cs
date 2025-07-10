@@ -42,7 +42,8 @@ public class EnemyBehavior : Entity
 
     public override void UpdateData()
     {
-        if (_player == null) _player = _gameManager.GetPlayerRef();
+        if (_gameManager._GameState == GameState.RUNNING) 
+            _player = _gameManager.GetPlayerRef();
         AttackCheck();
     }
 
@@ -78,7 +79,7 @@ public class EnemyBehavior : Entity
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (_player == null) return;
-        if(collision.gameObject == _player.gameObject)
+        if (collision.gameObject == _player.gameObject)
         {
             if(IsDead) return;
             _player.OnDamaged(1);
