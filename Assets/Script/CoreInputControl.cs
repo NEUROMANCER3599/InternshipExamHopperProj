@@ -8,9 +8,9 @@ public class CoreInputControl : MonoBehaviour
     {
         _gameManager = GM;
     }
-    public void UpdateData()
+    public void UpdateData(PlayerBehavior P)
     {
-        if (_player == null) _player = _gameManager.GetPlayerRef();
+        if (_player == null) _player = P;
     }
 
     public void OnJump()

@@ -28,7 +28,7 @@ public class Fruit : Entity
 
     void OnCollected()
     {
-        SoundFXManager.instance.PlaySoundFXClip(CollectSound, gameObject.transform);
+        SoundFXManager.instance.PlaySoundFXClip(CollectSound, _player.transform);
         _player.Healing(HealthPoint);
         Destroy(gameObject);
     }

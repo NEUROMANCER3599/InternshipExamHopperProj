@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-[RequireComponent(typeof(Entity))]
+
 public class Coin : Entity
 {
     public int ScorePoint = 100;
@@ -34,7 +34,7 @@ public class Coin : Entity
 
     void OnCollected()
     {
-        SoundFXManager.instance.PlaySoundFXClip(CollectSound, gameObject.transform);
+        SoundFXManager.instance.PlaySoundFXClip(CollectSound, _player.transform);
         _gameManager.Scoring(ScorePoint);
         _animator.SetTrigger("OnCollected");
     }

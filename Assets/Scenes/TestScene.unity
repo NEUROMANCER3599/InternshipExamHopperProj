@@ -1897,6 +1897,7 @@ MonoBehaviour:
   Score: 0
   TimeWon: 0
   PlayerPrefab: {fileID: 2465796553945486903, guid: 094a93c6823fc9e419dee2a95eaac123, type: 3}
+  _GameState: 0
   _player: {fileID: 0}
   _VirtualCam: {fileID: 0}
   SpawnedObjects: []
@@ -1942,7 +1943,7 @@ MonoBehaviour:
   BlockList:
   - {fileID: 2245297594938336629, guid: bda8663d68723e04f9fa299c16deadde, type: 3}
   - {fileID: 2245297594938336629, guid: e33462f254cca014ab3672d695224221, type: 3}
-  - {fileID: 2245297594938336629, guid: 08c09c78b5e40a74db0aae0c9a60740f, type: 3}
+  - {fileID: 5013642521778692660, guid: 08c09c78b5e40a74db0aae0c9a60740f, type: 3}
   StartingBlockPosition: {x: 0, y: -1.5, z: 0}
   StartingBlockPrefab: {fileID: -2421101259523926199, guid: 6ea922b65053a89498cd87a133d2ac5c, type: 3}
   GoalBlockPrefab: {fileID: -2628699131300429074, guid: b208519e37dd1a3438bb86c1b992ecac, type: 3}
@@ -2798,7 +2799,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2819b116c3cf22e44b27243f09ed1a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundFXObject: {fileID: 5560787568725030849, guid: 8ad3031d653bf3748984f8a11dfb2a80, type: 3}
+  soundFXObject: {fileID: 5754739160600747791, guid: 8ad3031d653bf3748984f8a11dfb2a80, type: 3}
+  defaultCapacity: 10
+  maxSize: 20
 --- !u!4 &1643773496
 Transform:
   m_ObjectHideFlags: 0

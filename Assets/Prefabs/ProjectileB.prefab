@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1337920361542608785}
   - component: {fileID: 5891589294993747161}
   - component: {fileID: 2983985634062592844}
-  - component: {fileID: 2137347318656068359}
   - component: {fileID: 779580798162357126}
   m_Layer: 0
   m_Name: ProjectileB
@@ -187,19 +186,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2137347318656068359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561730439265686532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gameManager: {fileID: 0}
 --- !u!114 &779580798162357126
 MonoBehaviour:
   m_ObjectHideFlags: 0

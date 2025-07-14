@@ -13,10 +13,10 @@ public class EntitySpawner : MonoBehaviour
     private BlockBuilder _blockBuilder;
     private GameManager _gameManager;
 
-    public void InitializeData()
+    public void InitializeData(GameManager GM, BlockBuilder BB)
     {
-        _blockBuilder = GetComponent<BlockBuilder>();
-        _gameManager = GameManager.instance;
+        _blockBuilder = BB;
+        _gameManager = GM;
     }
     public void SpawningEntity()
     {

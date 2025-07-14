@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 
-[RequireComponent(typeof(Entity))]
 public class EnemyBehavior : Entity
 {
     [Header("Parameters")]
@@ -9,8 +8,6 @@ public class EnemyBehavior : Entity
     [SerializeField] private int LifePoint = 3;
     [SerializeField] private float AttackDistance = 4;
     [SerializeField] private float AttackSpeed = 1;
-    [SerializeField] private Entity ProjectilePrefab;
-    [SerializeField] private Transform FirePoint;
 
     [Header("Animation Parameters")]
     private Animator _animator;
@@ -25,6 +22,7 @@ public class EnemyBehavior : Entity
 
     [Header("System")]
     [SerializeField] private PlayerBehavior _player;
+    [SerializeField] private ProjectilePoolingManager _ProjPooling;
     private bool IsDead;
     private bool IsAttacking;
     private SpriteRenderer _spriteRenderer;
@@ -33,11 +31,11 @@ public class EnemyBehavior : Entity
 
         base.InitializeData(GM);
 
-        if(_animator == null)
        _animator = GetComponent<Animator>();
 
        _spriteRenderer = GetComponent<SpriteRenderer>();
-       _gameManager = GameManager.instance;
+
+        _ProjPooling = GetComponent<ProjectilePoolingManager>();
     }
 
     public override void UpdateData()
@@ -71,9 +69,7 @@ public class EnemyBehavior : Entity
     public void FiringProjectile()
     {
         SoundFXManager.instance.PlaySoundFXClip(AttackSound, gameObject.transform);
-        var Proj = _gameManager.SpawnObject<Entity>(ProjectilePrefab, FirePoint.position);
-        Proj.InitializeData(_gameManager);
-        _gameManager.AddEntity(Proj);
+        _ProjPooling.CreatePooledItem();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

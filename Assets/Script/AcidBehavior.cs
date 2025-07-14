@@ -14,17 +14,17 @@ public class AcidBehavior : MonoBehaviour
     [SerializeField] private PlayerBehavior _player;
 
  
-    public void Initialize()
+    public void Initialize(GameManager GM)
     {
-        if(_gameManager == null) _gameManager = GameManager.instance;
+        _gameManager = GM;
         transform.position = AcidStartingPosition;
         RisingDuration = DefaultRisingTime + (_gameManager.TimeWon * 0.01f);
         if(RisingDuration > MaxRisingTime) RisingDuration = MaxRisingTime;
     }
 
-    public void UpdateData()
+    public void UpdateData(PlayerBehavior P)
     {
-        if(_gameManager._GameState == GameState.RUNNING) _player = FindAnyObjectByType<PlayerBehavior>();
+        if (_gameManager._GameState == GameState.RUNNING) _player = P;
 
         if(transform.position.y < AcidEndingPosition.y)
         {
@@ -34,7 +34,10 @@ public class AcidBehavior : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(_gameManager._GameState != GameState.RUNNING) return;
+        if(_gameManager._GameState != GameState.RUNNING) 
+            return;
+        if (_player == null)
+            return;
         if(collision.gameObject == _player.gameObject)
         {
             _player.OnDamaged(4);

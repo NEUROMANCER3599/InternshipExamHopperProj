@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-[RequireComponent(typeof(Entity))]
+
 public class PlayerBehavior : Entity
 {
 
@@ -53,19 +53,18 @@ public class PlayerBehavior : Entity
     public override void UpdateData()
     {
             
-            if (!GroundCheck()) return;
             if (!IsActive) return;
-            if(IsAttacking) return;
 
             if(Input.GetKeyDown(DefendInput)) Defend(true);
 
             if(Input.GetKeyUp(DefendInput)) Defend(false);
 
-            if (IsDefending) return;
-
             if(Input.GetKeyDown(JumpInput)) Jump();
 
             if(Input.GetKeyDown(AttackInput)) StartAttack();
+
+            if(LifePoint < 0) 
+            LifePoint = 0;
       
     }
 
@@ -77,7 +76,9 @@ public class PlayerBehavior : Entity
 
     public void Jump()
     {
-        
+            if (!GroundCheck()) 
+                return;
+
             if (StepNum + 1 >= _gameManager._BlockBuilder.SpawnedBlocks.Count) return;
             SoundFXManager.instance.PlaySoundFXClip(JumpSound, gameObject.transform);
             rb.DOJump(GetJumpPosition(), JumpPower, 1, JumpSpeed, false);
@@ -88,7 +89,10 @@ public class PlayerBehavior : Entity
 
     public void StartAttack()
     {
-            if (IsAttacking) return;
+            if (!GroundCheck()) 
+                return;
+            if (IsAttacking) 
+                return;
             IsAttacking = true;
             SoundFXManager.instance.PlaySoundFXClip(AttackSound, gameObject.transform);
             int RandomAnimIndex = Random.Range(0, 3);
@@ -98,9 +102,13 @@ public class PlayerBehavior : Entity
 
     public void Defend(bool check)
     {
+        if (!GroundCheck()) 
+            return;
+
         IsDefending = check;
 
-        if(IsDefending) SoundFXManager.instance.PlaySoundFXClip(DefendSound, gameObject.transform);
+        if(IsDefending) 
+            SoundFXManager.instance.PlaySoundFXClip(DefendSound, gameObject.transform);
 
         _animator.SetBool("IsDefending",IsDefending);
     }
@@ -130,8 +138,8 @@ public class PlayerBehavior : Entity
     {
         if(!IsActive) 
             return;
-        if(IsDefending) SoundFXManager.instance.PlaySoundFXClip(DefendHitSound, gameObject.transform);
-
+        if(IsDefending) 
+            SoundFXManager.instance.PlaySoundFXClip(DefendHitSound, gameObject.transform);
         if (IsDefending) return;
         LifePoint-= DMG;
         _animator.SetTrigger("OnHurt");
@@ -143,7 +151,6 @@ public class PlayerBehavior : Entity
 
     private void LoseEvent()
     {
-        
         IsActive = false;
         SoundFXManager.instance.PlaySoundFXClip(DeathSound, gameObject.transform);
         _animator.SetTrigger("OnDeath");
@@ -159,7 +166,8 @@ public class PlayerBehavior : Entity
             if (!collidedEnemy.gameObject.GetComponent<EnemyBehavior>()) return;
             EnemyBehavior EnemyInstance = collidedEnemy.gameObject.GetComponent<EnemyBehavior>();
             EnemyInstance.OnDamaged();
-            _gameManager.SpawnObject<Entity>(HitParticle, collidedEnemy.transform.position);
+            var HitFx = _gameManager.SpawnObject<Entity>(HitParticle, collidedEnemy.transform.position);
+            HitFx.InitializeData(_gameManager);
         }
     }
 

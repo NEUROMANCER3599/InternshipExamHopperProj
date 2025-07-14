@@ -1,6 +1,7 @@
-using UnityEngine;
-using DG.Tweening;
 using System.Collections;
+using DG.Tweening;
+using UnityEngine;
+using UnityEngine.Pool;
 public class Projectile : Entity
 {
     [Header("Parameters")]
@@ -13,11 +14,7 @@ public class Projectile : Entity
     [SerializeField] private Animator _animator;
     [SerializeField] private Rigidbody2D rb;
     bool isActivated;
-
-    private void Awake()
-    {
-        InitializeData(GameManager.instance);
-    }
+    private IObjectPool<Projectile> pool;
 
     public override void InitializeData(GameManager gameManager)
     {
@@ -29,10 +26,16 @@ public class Projectile : Entity
         Invoke(nameof(OnHit), DespawnTime);
     }
 
-    public override void UpdateData()
+    public void SetPool(IObjectPool<Projectile> pool)
     {
-       
+        this.pool = pool;
     }
+
+    public void OnBulletFinished()
+    {
+        pool.Release(this);
+    }
+
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -50,7 +53,8 @@ public class Projectile : Entity
     public void SelfCleanup()
     {
         DOTween.Kill(gameObject, true);
-        Destroy(gameObject);
+        OnBulletFinished();
+        //Destroy(gameObject);
     }
 
 }

@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 9047567658333469640}
   - component: {fileID: 5082991519372717543}
   - component: {fileID: 6401701953907888561}
-  - component: {fileID: 6182986784111190904}
   - component: {fileID: 2078570503111027488}
+  - component: {fileID: 6265646180193286129}
   m_Layer: 7
   m_Name: Bat_Enemy
   m_TagString: Untagged
@@ -183,8 +183,7 @@ MonoBehaviour:
   LifePoint: 1
   AttackDistance: 3
   AttackSpeed: 3
-  ProjectilePrefab: {fileID: 2137347318656068359, guid: c0a6feba506c52646ab92a530356c49a, type: 3}
-  FirePoint: {fileID: 620658954656996070}
+  ProjectilePrefab: {fileID: 779580798162357126, guid: c0a6feba506c52646ab92a530356c49a, type: 3}
   HitAnimationTrigger: OnHit
   DeathAnimationTrigger: OnDeath
   AttackAnimationTrigger: OnAttack
@@ -192,19 +191,7 @@ MonoBehaviour:
   HitSound: {fileID: 8300000, guid: 6a3ff03506adac8439d9f6be10177d0c, type: 3}
   DeathSound: {fileID: 8300000, guid: ac6194b0c18001a40aecf2ee4a50e9d3, type: 3}
   _player: {fileID: 0}
---- !u!114 &6182986784111190904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2773899641667067405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gameManager: {fileID: 0}
+  _ProjPooling: {fileID: 0}
 --- !u!95 &2078570503111027488
 Animator:
   serializedVersion: 7
@@ -227,6 +214,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6265646180193286129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2773899641667067405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b56e5fe9ddeaa4ca64456eecbec0a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultCapacity: 10
+  maxSize: 50
+  Firepoint: {fileID: 620658954656996070}
+  ProjectilePrefab: {fileID: 779580798162357126, guid: c0a6feba506c52646ab92a530356c49a, type: 3}
 --- !u!1 &3121406520357610790
 GameObject:
   m_ObjectHideFlags: 0

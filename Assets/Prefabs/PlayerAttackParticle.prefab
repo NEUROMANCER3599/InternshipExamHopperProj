@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4445817800258710668}
   - component: {fileID: 6571857663637677246}
-  - component: {fileID: 8910976751995377361}
   - component: {fileID: 353731873286425076}
-  - component: {fileID: 6630862038573697590}
+  - component: {fileID: 2491024963547965055}
   m_Layer: 0
   m_Name: PlayerAttackParticle
   m_TagString: Untagged
@@ -90,7 +89,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8910976751995377361
+--- !u!114 &353731873286425076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629116570628791509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720262f3d82c3de45997dcf76c38f75d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameManager: {fileID: 0}
+  _animClip: {fileID: 7400000, guid: 641d785c417a10d4a96af38760faa2e2, type: 2}
+--- !u!95 &2491024963547965055
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -112,28 +125,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &353731873286425076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3629116570628791509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 720262f3d82c3de45997dcf76c38f75d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6630862038573697590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3629116570628791509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gameManager: {fileID: 0}

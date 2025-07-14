@@ -1,49 +1,86 @@
 
 using UnityEngine;
-
+using UnityEngine.Audio;
+using UnityEngine.Pool;
 
 
 public class SoundFXManager : MonoBehaviour
 {
     public static SoundFXManager instance;
 
-    [SerializeField] private AudioSource soundFXObject;
+    [SerializeField] private SoundSourceObj soundFXObject;
+
+    [Header("Pooling Parameters")]
+    public int defaultCapacity = 10;
+    public int maxSize = 50;
+
+    private Transform DefaultTransform;
+
+    private IObjectPool<SoundSourceObj> m_Pool;
+
+    public IObjectPool<SoundSourceObj> SoundFxPool
+    {
+        get
+        {
+            if (m_Pool == null)
+            {
+                // Create the pool if it doesn't exist
+                m_Pool = new ObjectPool<SoundSourceObj>(
+                    CreatePooledItem,
+                    OnGetFromPool,
+                    OnReleaseToPool,
+                    OnDestroyPooledObject,
+                    true,
+                    defaultCapacity,
+                    maxSize);
+            }
+            return m_Pool;
+        }
+    }
+
+    public SoundSourceObj CreatePooledItem()
+    {
+        SoundSourceObj sfx = GameManager.instance.SpawnObject<SoundSourceObj>(soundFXObject, transform.position);
+        sfx.InitializeData(GameManager.instance);
+        sfx.SetPool(SoundFxPool);
+        GameManager.instance.AddEntity(sfx);
+        return sfx;
+    }
+
+    void OnGetFromPool(SoundSourceObj Sfx_Obj)
+    {
+        Sfx_Obj.gameObject.SetActive(true);
+    }
+
+    void OnReleaseToPool(SoundSourceObj Sfx_Obj)
+    {
+        Sfx_Obj.gameObject.SetActive(false);
+    }
+
+    void OnDestroyPooledObject(SoundSourceObj Sfx_Obj)
+    {
+        Destroy(Sfx_Obj.gameObject);
+    }
+
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            //DontDestroyOnLoad(gameObject);
-        }else
-        {
-            //Destroy(gameObject);
         }
+
     }
 
     public void PlaySoundFXClip(AudioClip audioClip, Transform SoundPosition)
     {
-        AudioSource audioSource = Instantiate(soundFXObject,SoundPosition);
 
-        audioSource.clip = audioClip;
+        SoundSourceObj sfxobj = CreatePooledItem();
 
-        audioSource.Play();
-        float clipLength = audioSource.clip.length;
-       
-        Destroy(audioSource.gameObject,clipLength);
-        
+        sfxobj.SetClip(audioClip);
+
+        sfxobj.playSound(SoundPosition);
+
     }
 
-    public void PlayRandomSoundFXClip(AudioClip[] audioClip)
-    {
-        int rand = Random.Range(0, audioClip.Length);
-        AudioSource audioSource = Instantiate(soundFXObject);
-
-        audioSource.clip = audioClip[rand];
-
-        audioSource.Play();
-        float clipLength = audioSource.clip.length;
-       
-        Destroy(audioSource.gameObject,clipLength);
-    }
-
+  
 }

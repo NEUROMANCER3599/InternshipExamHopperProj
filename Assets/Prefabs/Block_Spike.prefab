@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 9018350084111464146}
   - component: {fileID: 7424352701828157177}
   - component: {fileID: 401580240827687211}
-  - component: {fileID: 5022830175142573287}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Untagged
@@ -204,19 +203,6 @@ MonoBehaviour:
   _player: {fileID: 0}
   ActivateSfx: {fileID: 8300000, guid: d84b54448fa8bde4eb018652fffd9944, type: 3}
   DeactivateSfx: {fileID: 8300000, guid: decf577a3b5d0fe439babc045d4f0c22, type: 3}
---- !u!114 &5022830175142573287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7121538984642313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gameManager: {fileID: 0}
 --- !u!1 &3848544914625088520
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +215,6 @@ GameObject:
   - component: {fileID: 6478819991174270541}
   - component: {fileID: 9130702710322371947}
   - component: {fileID: 2245297594938336629}
-  - component: {fileID: -3265089574421878206}
   - component: {fileID: 8558340187593865221}
   m_Layer: 6
   m_Name: Block_Spike
@@ -368,25 +353,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameManager: {fileID: 0}
-  IsFallingEnabled: 0
-  MinTimeBeforeFalling: 5
-  MaxTimeBeforeFalling: 10
+  _player: {fileID: 0}
   LandingSound: {fileID: 8300000, guid: 11010e6e85ba83d4bbc73d4a87e3ca86, type: 3}
-  WarningSound: {fileID: 0}
-  BreakSound: {fileID: 0}
---- !u!114 &-3265089574421878206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3848544914625088520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5dd417635e339a4a96f538b2fe56eb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gameManager: {fileID: 0}
 --- !u!50 &8558340187593865221
 Rigidbody2D:
   serializedVersion: 5

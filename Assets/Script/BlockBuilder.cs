@@ -20,9 +20,9 @@ public class BlockBuilder : MonoBehaviour
     public List<Entity> SpawnedBlocks;
     private int totalBlockCount;
 
-    public void InitializeData()
+    public void InitializeData(GameManager GM)
     {
-        _manager = GameManager.instance;
+        _manager = GM;
     }
 
     public void BuildingBlocks()

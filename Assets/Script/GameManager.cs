@@ -72,20 +72,21 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        _BlockBuilder.InitializeData();
-        _EntitySpawner.InitializeData();
+        _BlockBuilder.InitializeData(this);
+        _EntitySpawner.InitializeData(this,_BlockBuilder);
         InitializeLevel();
     }
 
     void InitializeLevel() //Do not change this sequence
     {
-        AcidFloor.Initialize();
 
         _BlockBuilder.BuildingBlocks(); //This must be first
 
         SpawningPlayer();
 
-        CamConfiner.InitializeData();
+        AcidFloor.Initialize(this);
+
+        CamConfiner.InitializeData(this);
 
         _UIManager.InitializeData(this);
 
@@ -105,9 +106,9 @@ public class GameManager : MonoBehaviour
 
         if(_GameState == GameState.RUNNING) { CamConfiner.FollowingPlayer();}
 
-        AcidFloor.UpdateData();
-        _CoreInputControl.UpdateData();
-        _UIManager.UpdateData();
+        AcidFloor.UpdateData(GetPlayerRef());
+        _CoreInputControl.UpdateData(GetPlayerRef());
+        _UIManager.UpdateData(GetPlayerRef());
 
         if (Input.GetKeyDown(RestartKey))
         {
